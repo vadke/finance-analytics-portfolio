@@ -1,0 +1,242 @@
+<title>Summit Outfitters FP&amp;A</title>
+<meta name="description" content="Budget vs. actual variance analysis and a 12-month rolling forecast with scenarios for a simulated specialty retailer.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@500;700;800&family=Source+Sans+3:wght@400;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: management-pack order. Headline KPIs, revenue path with scenario toggle, variance by line, variance by segment, commentary, forecast accuracy, method. */
+:root{
+  --bg:#F3F5F7; --surface:#FFFFFF; --ink:#16202A; --muted:#566573; --line:#D9E0E6; --accent:#0B6B66; --accent-soft:#DCEFED;
+  --pos:#1E7A4B; --pos-soft:#E1F2E8; --neg:#B0383A; --neg-soft:#F8E3E3;
+  --budget:#8A97A3; --actual:#16202A; --fc:#0B6B66;
+  --f-display:"Libre Franklin","Helvetica Neue",Arial,sans-serif;
+  --f-body:"Source Sans 3","Segoe UI",Arial,sans-serif;
+  --f-data:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0E1317; --surface:#151C22; --ink:#E3E9ED; --muted:#97A6B2; --line:#26323B; --accent:#43B3AA; --accent-soft:#163533;
+  --pos:#56C690; --pos-soft:#15301F; --neg:#F07C7C; --neg-soft:#3A1C1E; --budget:#6C7A86; --actual:#E3E9ED; --fc:#43B3AA; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0E1317; --surface:#151C22; --ink:#E3E9ED; --muted:#97A6B2; --line:#26323B; --accent:#43B3AA; --accent-soft:#163533;
+  --pos:#56C690; --pos-soft:#15301F; --neg:#F07C7C; --neg-soft:#3A1C1E; --budget:#6C7A86; --actual:#E3E9ED; --fc:#43B3AA; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font:16px/1.55 var(--f-body);margin:0}
+.wrap{max-width:1080px;margin:0 auto;padding-block:40px 56px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:36px}
+header{display:grid;gap:10px}
+.eyebrow{font:500 12px/1.3 var(--f-data);letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+h1{font:800 clamp(28px,4.4vw,42px)/1.1 var(--f-display);margin:0;text-wrap:balance;letter-spacing:-.01em}
+h2{font:700 20px/1.25 var(--f-display);margin:0;text-wrap:balance}
+.lede{color:var(--muted);max-width:68ch;margin:0}
+.sim{display:inline-flex;align-items:center;gap:8px;font:500 12px/1 var(--f-data);text-transform:uppercase;letter-spacing:.06em;color:var(--accent);background:var(--accent-soft);padding:6px 10px;border-radius:999px;justify-self:start}
+section{display:grid;gap:16px;min-width:0}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.kpi{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:16px;display:grid;gap:6px;align-content:start}
+.kpi .lbl{font:500 12px/1.3 var(--f-data);letter-spacing:.05em;text-transform:uppercase;color:var(--muted)}
+.kpi .val{font:700 28px/1.1 var(--f-display);font-variant-numeric:tabular-nums}
+.kpi .sub{font-size:14px;color:var(--muted)}
+.chip{display:inline-block;font:500 12px/1 var(--f-data);padding:4px 7px;border-radius:4px;font-variant-numeric:tabular-nums}
+.chip.fav{color:var(--pos);background:var(--pos-soft)} .chip.unf{color:var(--neg);background:var(--neg-soft)}
+.controls{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:6px;overflow:hidden;background:var(--surface)}
+.seg button{font:600 14px var(--f-body);padding:7px 14px;border:0;background:transparent;color:var(--muted);cursor:pointer}
+.seg button+button{border-left:1px solid var(--line)}
+.seg button[aria-pressed="true"]{background:var(--accent);color:var(--surface)}
+.seg button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.box{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:16px;min-width:0}
+.cv{position:relative;height:330px}
+.legend{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:14px;margin-top:10px;color:var(--muted)}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.sw{width:18px;height:0;border-top:2.5px solid;display:inline-block}
+.sw.dash{border-top-style:dashed}
+.grid2{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:16px}
+@media (max-width:860px){.grid2{grid-template-columns:minmax(0,1fr)}}
+.tablebox{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums}
+th,td{padding:9px 10px;text-align:right;border-bottom:1px solid var(--line);white-space:nowrap}
+th:first-child,td:first-child{text-align:left}
+thead th{font:600 12px/1.2 var(--f-body);color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
+td{font:14px/1.3 var(--f-data)} td.name{font:15px/1.3 var(--f-body)}
+tr.sub td{font-weight:600;border-top:1.5px solid var(--muted)} tr.sub td.name{font-weight:700}
+tbody tr:last-child td{border-bottom:0}
+.note{font-size:13px;color:var(--muted);margin:0}
+.comm{display:grid;gap:12px;margin:0;padding:0;list-style:none}
+.comm li{display:grid;grid-template-columns:auto 1fr;gap:12px;align-items:start}
+.comm .tag{font:500 11px/1 var(--f-data);text-transform:uppercase;letter-spacing:.05em;padding:5px 7px;border-radius:4px;margin-top:3px}
+.comm p{margin:0;max-width:72ch}
+.method{display:grid;gap:8px;max-width:75ch}
+.method p{margin:0;color:var(--muted);font-size:15px}
+footer{border-top:1px solid var(--line);padding-top:16px;font-size:13px;color:var(--muted);display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-between}
+@media (max-width:520px){.cv{height:270px}.wrap{padding-block:28px 40px}}
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow">FP&amp;A pack · FY2026 · actuals through September</div>
+    <h1>Summit Outfitters FP&amp;A</h1>
+    <p class="lede">Budget vs. actual variance analysis and a 12-month rolling forecast for a specialty outdoor retailer with four regions and two channels, built from a SQL variance model, a Python forecast and an Excel driver model.</p>
+    <span class="sim">Simulated company data</span>
+  </header>
+
+  <section aria-label="Headline results"><div class="kpis" id="kpis"></div></section>
+
+  <section aria-labelledby="r-h">
+    <div class="controls">
+      <h2 id="r-h">Monthly revenue: budget, actual and forecast</h2>
+      <div class="seg" role="group" aria-label="Forecast scenario" id="scen">
+        <button type="button" data-s="Downside" aria-pressed="false">Downside</button>
+        <button type="button" data-s="Base" aria-pressed="true">Base</button>
+        <button type="button" data-s="Upside" aria-pressed="false">Upside</button>
+      </div>
+    </div>
+    <div class="box">
+      <div class="cv"><canvas id="revChart" role="img" aria-label="Monthly revenue: budget, actual and forecast"></canvas></div>
+      <div class="legend"><span><i class="sw" style="color:var(--budget)"></i>Budget</span><span><i class="sw" style="color:var(--actual)"></i>Actual</span><span><i class="sw dash" style="color:var(--fc)"></i>Forecast (<b id="scenName">Base</b>)</span></div>
+    </div>
+    <div class="box tablebox"><table id="fcTbl"></table></div>
+  </section>
+
+  <section aria-labelledby="v-h">
+    <h2 id="v-h">Where the variance came from, year to date</h2>
+    <div class="grid2">
+      <div class="box tablebox"><table id="ytdTbl"></table></div>
+      <div class="box">
+        <div class="note" style="margin-bottom:8px">Revenue vs. budget by region and channel, Jan–Sep 2026</div>
+        <div class="cv" style="height:300px"><canvas id="segChart" role="img" aria-label="Revenue variance percent by region and channel"></canvas></div>
+      </div>
+    </div>
+  </section>
+
+  <section aria-labelledby="c-h">
+    <h2 id="c-h">Variance commentary</h2>
+    <div class="box"><ul class="comm" id="comm"></ul></div>
+  </section>
+
+  <section aria-labelledby="b-h">
+    <div class="controls"><h2 id="b-h">Forecast accuracy check</h2><span class="note" id="btNote"></span></div>
+    <div class="box">
+      <div class="cv" style="height:260px"><canvas id="btChart" role="img" aria-label="Backtest: forecast vs actual revenue, January to September 2026"></canvas></div>
+      <div class="legend"><span><i class="sw" style="color:var(--actual)"></i>Actual</span><span><i class="sw dash" style="color:var(--fc)"></i>Forecast made with data through Dec 2025</span></div>
+    </div>
+  </section>
+
+  <section class="method" aria-labelledby="m-h">
+    <h2 id="m-h">Method</h2>
+    <p>The company and its numbers are simulated: a seeded Python script generates 33 months of actuals and three annual budgets across four regions and two channels, with margins set near those of public big-box retailers. Built-in events include an e-commerce shift, a Northeast store slowdown, a freight cost spike and a spring marketing overspend.</p>
+    <p>SQL views in SQLite roll the ledger into a P&amp;L and compute variance by month, line and segment. The revenue forecast is a log-linear trend with month-of-year effects, fitted separately for each region and channel on the last 24 months and summed. Each department's cost is modeled as a fixed monthly amount plus a variable rate on revenue, fitted on the trailing 12 months. The same drivers feed an Excel model with a scenario selector and 500+ live formulas.</p>
+  </section>
+
+  <footer><span>Analysis and dashboard by Vinit Adke</span><span>Simulated data for a fictional company</span></footer>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.js"></script>
+<script>
+const D = __DATA__;
+const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+const M1 = v => (v/1e6).toLocaleString("en-US",{minimumFractionDigits:1,maximumFractionDigits:1});
+const M = v => "$" + M1(v) + "M";
+const MS = v => (v<0?"–":"+") + "$" + M1(Math.abs(v)) + "M";
+const A = v => "$" + M1(Math.abs(v)) + "M"; const AP = v => Math.abs(v).toFixed(1) + "%";
+const P = v => (v>=0?"+":"–") + Math.abs(v).toFixed(1) + "%";
+const chip = (v, txt) => `<span class="chip ${v>=0?"fav":"unf"}">${txt ?? P(v)}</span>`;
+const mon = m => new Date(m+"-01T00:00:00").toLocaleDateString("en-US",{month:"short",year:"2-digit"});
+const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+// ---- KPIs ----
+const ytd = Object.fromEntries(D.reports.ytd_2026.map(r => [r.line_item, r]));
+const le = D.fy2026.latest_estimate, bud = D.fy2026.budget;
+const leOI = 100*(le["Operating Income"]-bud["Operating Income"])/Math.abs(bud["Operating Income"]);
+const leRev = 100*(le.Revenue-bud.Revenue)/bud.Revenue;
+document.getElementById("kpis").innerHTML = [
+  ["YTD revenue", M(ytd.Revenue.actual), `${chip(ytd.Revenue.variance_pct)} vs. budget of ${M(ytd.Revenue.budget)}`],
+  ["YTD operating income", M(ytd["Operating Income"].actual), `${chip(ytd["Operating Income"].variance_pct)} vs. budget of ${M(ytd["Operating Income"].budget)}`],
+  ["FY2026 latest estimate", M(le["Operating Income"]), `Operating income, ${chip(leOI)} vs. budget; revenue ${P(leRev)}`],
+  ["Forecast error (backtest)", D.backtest.mape_pct.toFixed(1)+"%", `Mean monthly error, Jan–Sep 2026`]
+].map(k => `<div class="kpi"><div class="lbl">${k[0]}</div><div class="val">${k[1]}</div><div class="sub">${k[2]}</div></div>`).join("");
+
+// ---- Revenue chart + forecast table ----
+const rev = D.bva_monthly.filter(r => r.line_item==="Revenue");
+const fm = D.forecast.months;
+const labels = [...rev.map(r=>r.month), ...fm.filter(m => !rev.some(r=>r.month===m))];
+let scen = "Base";
+try { const s = localStorage.getItem("fpa-scen"); if (["Base","Upside","Downside"].includes(s)) scen = s; } catch(e) {}
+let revChart, segChart, btChart;
+const axis = () => ({ grid:{color:css("--line")}, border:{display:false}, ticks:{color:css("--muted"), font:{family:"IBM Plex Mono", size:11}} });
+function drawRev(){
+  const f = D.forecast.scenarios[scen].revenue;
+  const lastAct = rev.filter(r=>r.actual!=null).at(-1);
+  const fcSeries = labels.map(m => m===lastAct.month ? lastAct.actual : (fm.indexOf(m)>=0 ? f[fm.indexOf(m)] : null));
+  const data = {labels: labels.map(mon), datasets:[
+    {label:"Budget", data: labels.map(m => (rev.find(r=>r.month===m)||{}).budget ?? null), borderColor:css("--budget"), borderWidth:2, pointRadius:0, tension:.25},
+    {label:"Actual", data: labels.map(m => (rev.find(r=>r.month===m)||{}).actual ?? null), borderColor:css("--actual"), borderWidth:2.5, pointRadius:0, tension:.25},
+    {label:"Forecast", data: fcSeries, borderColor:css("--fc"), borderDash:[6,4], borderWidth:2.5, pointRadius:0, tension:.25}
+  ]};
+  if (revChart) revChart.destroy();
+  revChart = new Chart(document.getElementById("revChart"), {type:"line", data, options:{responsive:true, maintainAspectRatio:false, animation:reduce?false:{duration:300},
+    interaction:{mode:"index", intersect:false}, plugins:{legend:{display:false}, tooltip:{callbacks:{label:c => c.raw==null?null:` ${c.dataset.label}: ${M(c.raw)}`}}},
+    scales:{x:{...axis(), grid:{display:false}, ticks:{...axis().ticks, maxTicksAutoSkipPadding:12, autoSkip:true, maxRotation:0}},
+            y:{...axis(), ticks:{...axis().ticks, callback:v => "$"+(v/1e6)+"M"}}}}});
+  document.getElementById("scenName").textContent = scen;
+  // 12-month forecast table, all three scenarios with the selected one highlighted
+  const S = D.forecast.scenarios, sum = a => a.reduce((x,y)=>x+y,0);
+  const rows = [["Revenue","revenue"],["Gross profit","gross_profit"],["Operating expenses","opex"],["Operating income","operating_income"]];
+  const cols = ["Downside","Base","Upside"];
+  document.getElementById("fcTbl").innerHTML = `<thead><tr><th>Next 12 months (${mon(fm[0])} – ${mon(fm.at(-1))})</th>${cols.map(c=>`<th style="${c===scen?"color:var(--accent)":""}">${c}</th>`).join("")}</tr></thead><tbody>` +
+    rows.map(r => `<tr class="${r[1]==="operating_income"?"sub":""}"><td class="name">${r[0]}</td>${cols.map(c => `<td style="${c===scen?"color:var(--accent);font-weight:500":""}">${M(sum(S[c][r[1]]))}</td>`).join("")}</tr>`).join("") +
+    `<tr><td class="name">Operating margin</td>${cols.map(c => `<td style="${c===scen?"color:var(--accent);font-weight:500":""}">${(100*sum(S[c].operating_income)/sum(S[c].revenue)).toFixed(1)}%</td>`).join("")}</tr></tbody>`;
+}
+document.querySelectorAll("#scen button").forEach(b => {
+  b.setAttribute("aria-pressed", b.dataset.s===scen);
+  b.onclick = () => { scen = b.dataset.s; try { localStorage.setItem("fpa-scen", scen); } catch(e) {}
+    document.querySelectorAll("#scen button").forEach(x => x.setAttribute("aria-pressed", x===b)); drawRev(); };
+});
+
+// ---- YTD variance table ----
+const ORDER = ["Revenue","Cost of Goods Sold","Gross Profit","Store Operations","Marketing","Supply Chain & Logistics","Technology","General & Administrative","Operating Income"];
+document.getElementById("ytdTbl").innerHTML = `<thead><tr><th>P&amp;L line, Jan–Sep 2026</th><th>Budget</th><th>Actual</th><th>Variance</th><th></th></tr></thead><tbody>` +
+  ORDER.map(k => { const r = ytd[k]; const sub = k==="Gross Profit"||k==="Operating Income";
+    return `<tr class="${sub?"sub":""}"><td class="name">${k}</td><td>${M(Math.abs(r.budget))}</td><td>${M(Math.abs(r.actual))}</td><td>${MS(r.variance)}</td><td>${chip(r.variance_pct)}</td></tr>`; }).join("") + "</tbody>";
+
+// ---- Segment chart ----
+function drawSeg(){
+  const seg = [...D.reports.region_channel_ytd].sort((a,b)=>a.variance_pct-b.variance_pct);
+  if (segChart) segChart.destroy();
+  segChart = new Chart(document.getElementById("segChart"), {type:"bar",
+    data:{labels: seg.map(s => `${s.region} ${s.channel==="E-commerce"?"online":"stores"}`), datasets:[{data: seg.map(s=>s.variance_pct),
+      backgroundColor: seg.map(s => s.variance_pct>=0 ? css("--pos") : css("--neg")), borderRadius:3, barThickness:18}]},
+    options:{indexAxis:"y", responsive:true, maintainAspectRatio:false, animation:reduce?false:{duration:300}, plugins:{legend:{display:false},
+      tooltip:{callbacks:{label:c => { const s = seg[c.dataIndex]; return ` ${P(s.variance_pct)} (${MS(s.variance)}) vs. budget`; }}}},
+      scales:{x:{...axis(), ticks:{...axis().ticks, callback:v => v+"%"}}, y:{...axis(), grid:{display:false}, ticks:{...axis().ticks, font:{family:"Source Sans 3", size:13}, color:css("--ink")}}}}});
+}
+
+// ---- Commentary, computed from the data ----
+const seg = D.reports.region_channel_ytd, yoy = D.reports.region_channel_yoy;
+const online = seg.filter(s=>s.channel==="E-commerce"), stores = seg.filter(s=>s.channel==="Stores");
+const worst = [...seg].sort((a,b)=>a.variance_pct-b.variance_pct)[0];
+const worstYoy = yoy.find(y => y.region===worst.region && y.channel===worst.channel);
+const gmA = 100*ytd["Gross Profit"].actual/ytd.Revenue.actual, gmB = 100*ytd["Gross Profit"].budget/ytd.Revenue.budget;
+const sumv = a => a.reduce((x,s)=>x+s.variance,0);
+const C = [
+  ["fav", "Revenue", `Online sales beat plan in every region (${P(Math.min(...online.map(s=>s.variance_pct)))} to ${P(Math.max(...online.map(s=>s.variance_pct)))}), adding ${A(sumv(online))} and more than covering the ${A(sumv(stores))} shortfall in stores.`],
+  ["unf", "Risk", `${worst.region} stores are the largest gap, ${AP(worst.variance_pct)} (${A(worst.variance)}) below budget, and sales are down ${AP(worstYoy.yoy_pct)} year over year. This segment needs a separate plan.`],
+  ["unf", "Margin", `Gross margin is ${gmA.toFixed(1)}% vs. ${gmB.toFixed(1)}% budgeted. The mix shift toward online orders, which carry shipping and return costs, explains most of the gap.`],
+  ["fav", "Opex", `Technology is ${AP(ytd.Technology.variance_pct)} (${A(ytd.Technology.variance)}) under budget on delayed hires; the saving is timing and should be phased into Q4 and FY2027 plans.`],
+  ["unf", "Opex", `Supply chain (${AP(ytd["Supply Chain & Logistics"].variance_pct)} over) and marketing (${AP(ytd.Marketing.variance_pct)} over) are above budget, in line with sales running ${AP(ytd.Revenue.variance_pct)} ahead of plan; both costs move with volume.`]
+];
+document.getElementById("comm").innerHTML = C.map(c => `<li><span class="tag chip ${c[0]}">${c[1]}</span><p>${c[2]}</p></li>`).join("");
+
+// ---- Backtest ----
+const bt = D.backtest;
+document.getElementById("btNote").textContent = `Mean error ${bt.mape_pct.toFixed(1)}% · worst month ${bt.max_ape_pct.toFixed(1)}% · nine-month total off by ${P(bt.total_error_pct)}`;
+function drawBt(){
+  if (btChart) btChart.destroy();
+  btChart = new Chart(document.getElementById("btChart"), {type:"line", data:{labels: bt.months.map(mon), datasets:[
+    {label:"Actual", data: bt.actual, borderColor:css("--actual"), backgroundColor:css("--actual"), borderWidth:2.5, pointRadius:3},
+    {label:"Forecast", data: bt.forecast, borderColor:css("--fc"), backgroundColor:css("--fc"), borderDash:[6,4], borderWidth:2.5, pointRadius:3}]},
+    options:{responsive:true, maintainAspectRatio:false, animation:reduce?false:{duration:300}, interaction:{mode:"index", intersect:false},
+      plugins:{legend:{display:false}, tooltip:{callbacks:{label:c => ` ${c.dataset.label}: ${M(c.raw)}`}}},
+      scales:{x:{...axis(), grid:{display:false}}, y:{...axis(), ticks:{...axis().ticks, callback:v => "$"+(v/1e6)+"M"}}}}});
+}
+const drawAll = () => { drawRev(); drawSeg(); drawBt(); };
+drawAll();
+matchMedia("(prefers-color-scheme: dark)").addEventListener("change", drawAll);
+new MutationObserver(drawAll).observe(document.documentElement, {attributes:true, attributeFilter:["data-theme"]});
+</script>

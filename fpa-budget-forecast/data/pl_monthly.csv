@@ -1,0 +1,1450 @@
+month,scenario,line_type,line_item,region,channel,amount_usd
+2024-01,Budget,Revenue,Revenue,West,Stores,19094400
+2024-01,Budget,COGS,Cost of Goods Sold,West,Stores,-11838528
+2024-01,Actual,Revenue,Revenue,West,Stores,19239860
+2024-01,Actual,COGS,Cost of Goods Sold,West,Stores,-12008750
+2024-01,Budget,Revenue,Revenue,West,E-commerce,7425600
+2024-01,Budget,COGS,Cost of Goods Sold,West,E-commerce,-4603872
+2024-01,Actual,Revenue,Revenue,West,E-commerce,7564914
+2024-01,Actual,COGS,Cost of Goods Sold,West,E-commerce,-4737435
+2024-01,Budget,Revenue,Revenue,Southwest,Stores,13478400
+2024-01,Budget,COGS,Cost of Goods Sold,Southwest,Stores,-8356608
+2024-01,Actual,Revenue,Revenue,Southwest,Stores,12820979
+2024-01,Actual,COGS,Cost of Goods Sold,Southwest,Stores,-8015788
+2024-01,Budget,Revenue,Revenue,Southwest,E-commerce,5241600
+2024-01,Budget,COGS,Cost of Goods Sold,Southwest,E-commerce,-3249792
+2024-01,Actual,Revenue,Revenue,Southwest,E-commerce,5258352
+2024-01,Actual,COGS,Cost of Goods Sold,Southwest,E-commerce,-3319414
+2024-01,Budget,Revenue,Revenue,Midwest,Stores,12355200
+2024-01,Budget,COGS,Cost of Goods Sold,Midwest,Stores,-7660224
+2024-01,Actual,Revenue,Revenue,Midwest,Stores,12350010
+2024-01,Actual,COGS,Cost of Goods Sold,Midwest,Stores,-7699147
+2024-01,Budget,Revenue,Revenue,Midwest,E-commerce,4804800
+2024-01,Budget,COGS,Cost of Goods Sold,Midwest,E-commerce,-2978976
+2024-01,Actual,Revenue,Revenue,Midwest,E-commerce,4910433
+2024-01,Actual,COGS,Cost of Goods Sold,Midwest,E-commerce,-3078296
+2024-01,Budget,Revenue,Revenue,Northeast,Stores,11232000
+2024-01,Budget,COGS,Cost of Goods Sold,Northeast,Stores,-6963840
+2024-01,Actual,Revenue,Revenue,Northeast,Stores,11250541
+2024-01,Actual,COGS,Cost of Goods Sold,Northeast,Stores,-6924607
+2024-01,Budget,Revenue,Revenue,Northeast,E-commerce,4368000
+2024-01,Budget,COGS,Cost of Goods Sold,Northeast,E-commerce,-2708160
+2024-01,Actual,Revenue,Revenue,Northeast,E-commerce,4419052
+2024-01,Actual,COGS,Cost of Goods Sold,Northeast,E-commerce,-2799192
+2024-02,Budget,Revenue,Revenue,West,Stores,17625600
+2024-02,Budget,COGS,Cost of Goods Sold,West,Stores,-10927872
+2024-02,Actual,Revenue,Revenue,West,Stores,17831957
+2024-02,Actual,COGS,Cost of Goods Sold,West,Stores,-11124208
+2024-02,Budget,Revenue,Revenue,West,E-commerce,6854400
+2024-02,Budget,COGS,Cost of Goods Sold,West,E-commerce,-4249728
+2024-02,Actual,Revenue,Revenue,West,E-commerce,7086993
+2024-02,Actual,COGS,Cost of Goods Sold,West,E-commerce,-4466221
+2024-02,Budget,Revenue,Revenue,Southwest,Stores,12441600
+2024-02,Budget,COGS,Cost of Goods Sold,Southwest,Stores,-7713792
+2024-02,Actual,Revenue,Revenue,Southwest,Stores,12434555
+2024-02,Actual,COGS,Cost of Goods Sold,Southwest,Stores,-7743292
+2024-02,Budget,Revenue,Revenue,Southwest,E-commerce,4838400
+2024-02,Budget,COGS,Cost of Goods Sold,Southwest,E-commerce,-2999808
+2024-02,Actual,Revenue,Revenue,Southwest,E-commerce,5051946
+2024-02,Actual,COGS,Cost of Goods Sold,Southwest,E-commerce,-3185849
+2024-02,Budget,Revenue,Revenue,Midwest,Stores,11404800
+2024-02,Budget,COGS,Cost of Goods Sold,Midwest,Stores,-7070976
+2024-02,Actual,Revenue,Revenue,Midwest,Stores,11310501
+2024-02,Actual,COGS,Cost of Goods Sold,Midwest,Stores,-7028442
+2024-02,Budget,Revenue,Revenue,Midwest,E-commerce,4435200
+2024-02,Budget,COGS,Cost of Goods Sold,Midwest,E-commerce,-2749824
+2024-02,Actual,Revenue,Revenue,Midwest,E-commerce,4546872
+2024-02,Actual,COGS,Cost of Goods Sold,Midwest,E-commerce,-2857883
+2024-02,Budget,Revenue,Revenue,Northeast,Stores,10368000
+2024-02,Budget,COGS,Cost of Goods Sold,Northeast,Stores,-6428160
+2024-02,Actual,Revenue,Revenue,Northeast,Stores,10500814
+2024-02,Actual,COGS,Cost of Goods Sold,Northeast,Stores,-6492409
+2024-02,Budget,Revenue,Revenue,Northeast,E-commerce,4032000
+2024-02,Budget,COGS,Cost of Goods Sold,Northeast,E-commerce,-2499840
+2024-02,Actual,Revenue,Revenue,Northeast,E-commerce,4297642
+2024-02,Actual,COGS,Cost of Goods Sold,Northeast,E-commerce,-2714501
+2024-03,Budget,Revenue,Revenue,West,Stores,21150720
+2024-03,Budget,COGS,Cost of Goods Sold,West,Stores,-13113446
+2024-03,Actual,Revenue,Revenue,West,Stores,20982980
+2024-03,Actual,COGS,Cost of Goods Sold,West,Stores,-13077749
+2024-03,Budget,Revenue,Revenue,West,E-commerce,8225280
+2024-03,Budget,COGS,Cost of Goods Sold,West,E-commerce,-5099674
+2024-03,Actual,Revenue,Revenue,West,E-commerce,8548776
+2024-03,Actual,COGS,Cost of Goods Sold,West,E-commerce,-5347124
+2024-03,Budget,Revenue,Revenue,Southwest,Stores,14929920
+2024-03,Budget,COGS,Cost of Goods Sold,Southwest,Stores,-9256550
+2024-03,Actual,Revenue,Revenue,Southwest,Stores,15008943
+2024-03,Actual,COGS,Cost of Goods Sold,Southwest,Stores,-9355984
+2024-03,Budget,Revenue,Revenue,Southwest,E-commerce,5806080
+2024-03,Budget,COGS,Cost of Goods Sold,Southwest,E-commerce,-3599770
+2024-03,Actual,Revenue,Revenue,Southwest,E-commerce,5837167
+2024-03,Actual,COGS,Cost of Goods Sold,Southwest,E-commerce,-3662225
+2024-03,Budget,Revenue,Revenue,Midwest,Stores,13685760
+2024-03,Budget,COGS,Cost of Goods Sold,Midwest,Stores,-8485171
+2024-03,Actual,Revenue,Revenue,Midwest,Stores,14008905
+2024-03,Actual,COGS,Cost of Goods Sold,Midwest,Stores,-8655085
+2024-03,Budget,Revenue,Revenue,Midwest,E-commerce,5322240
+2024-03,Budget,COGS,Cost of Goods Sold,Midwest,E-commerce,-3299789
+2024-03,Actual,Revenue,Revenue,Midwest,E-commerce,5357033
+2024-03,Actual,COGS,Cost of Goods Sold,Midwest,E-commerce,-3369956
+2024-03,Budget,Revenue,Revenue,Northeast,Stores,12441600
+2024-03,Budget,COGS,Cost of Goods Sold,Northeast,Stores,-7713792
+2024-03,Actual,Revenue,Revenue,Northeast,Stores,12539518
+2024-03,Actual,COGS,Cost of Goods Sold,Northeast,Stores,-7763532
+2024-03,Budget,Revenue,Revenue,Northeast,E-commerce,4838400
+2024-03,Budget,COGS,Cost of Goods Sold,Northeast,E-commerce,-2999808
+2024-03,Actual,Revenue,Revenue,Northeast,E-commerce,5060319
+2024-03,Actual,COGS,Cost of Goods Sold,Northeast,E-commerce,-3183475
+2024-04,Budget,Revenue,Revenue,West,Stores,22913280
+2024-04,Budget,COGS,Cost of Goods Sold,West,Stores,-14206234
+2024-04,Actual,Revenue,Revenue,West,Stores,23475017
+2024-04,Actual,COGS,Cost of Goods Sold,West,Stores,-14548165
+2024-04,Budget,Revenue,Revenue,West,E-commerce,8910720
+2024-04,Budget,COGS,Cost of Goods Sold,West,E-commerce,-5524646
+2024-04,Actual,Revenue,Revenue,West,E-commerce,9294265
+2024-04,Actual,COGS,Cost of Goods Sold,West,E-commerce,-5831917
+2024-04,Budget,Revenue,Revenue,Southwest,Stores,16174080
+2024-04,Budget,COGS,Cost of Goods Sold,Southwest,Stores,-10027930
+2024-04,Actual,Revenue,Revenue,Southwest,Stores,15776137
+2024-04,Actual,COGS,Cost of Goods Sold,Southwest,Stores,-9801378
+2024-04,Budget,Revenue,Revenue,Southwest,E-commerce,6289920
+2024-04,Budget,COGS,Cost of Goods Sold,Southwest,E-commerce,-3899750
+2024-04,Actual,Revenue,Revenue,Southwest,E-commerce,6464788
+2024-04,Actual,COGS,Cost of Goods Sold,Southwest,E-commerce,-4089338
+2024-04,Budget,Revenue,Revenue,Midwest,Stores,14826240
+2024-04,Budget,COGS,Cost of Goods Sold,Midwest,Stores,-9192269
+2024-04,Actual,Revenue,Revenue,Midwest,Stores,14833468
+2024-04,Actual,COGS,Cost of Goods Sold,Midwest,Stores,-9108049
+2024-04,Budget,Revenue,Revenue,Midwest,E-commerce,5765760
+2024-04,Budget,COGS,Cost of Goods Sold,Midwest,E-commerce,-3574771
+2024-04,Actual,Revenue,Revenue,Midwest,E-commerce,5841537
+2024-04,Actual,COGS,Cost of Goods Sold,Midwest,E-commerce,-3657543
+2024-04,Budget,Revenue,Revenue,Northeast,Stores,13478400
+2024-04,Budget,COGS,Cost of Goods Sold,Northeast,Stores,-8356608
+2024-04,Actual,Revenue,Revenue,Northeast,Stores,13007105
+2024-04,Actual,COGS,Cost of Goods Sold,Northeast,Stores,-8081828
+2024-04,Budget,Revenue,Revenue,Northeast,E-commerce,5241600
+2024-04,Budget,COGS,Cost of Goods Sold,Northeast,E-commerce,-3249792
+2024-04,Actual,Revenue,Revenue,Northeast,E-commerce,5450067
+2024-04,Actual,COGS,Cost of Goods Sold,Northeast,E-commerce,-3420762
+2024-05,Budget,Revenue,Revenue,West,Stores,24969600
+2024-05,Budget,COGS,Cost of Goods Sold,West,Stores,-15481152
+2024-05,Actual,Revenue,Revenue,West,Stores,25665212
+2024-05,Actual,COGS,Cost of Goods Sold,West,Stores,-15830986
+2024-05,Budget,Revenue,Revenue,West,E-commerce,9710400
+2024-05,Budget,COGS,Cost of Goods Sold,West,E-commerce,-6020448
+2024-05,Actual,Revenue,Revenue,West,E-commerce,10084791
+2024-05,Actual,COGS,Cost of Goods Sold,West,E-commerce,-6372069
+2024-05,Budget,Revenue,Revenue,Southwest,Stores,17625600
+2024-05,Budget,COGS,Cost of Goods Sold,Southwest,Stores,-10927872
+2024-05,Actual,Revenue,Revenue,Southwest,Stores,18298853
+2024-05,Actual,COGS,Cost of Goods Sold,Southwest,Stores,-11359291
+2024-05,Budget,Revenue,Revenue,Southwest,E-commerce,6854400
+2024-05,Budget,COGS,Cost of Goods Sold,Southwest,E-commerce,-4249728
+2024-05,Actual,Revenue,Revenue,Southwest,E-commerce,6992328
+2024-05,Actual,COGS,Cost of Goods Sold,Southwest,E-commerce,-4436864
+2024-05,Budget,Revenue,Revenue,Midwest,Stores,16156800
+2024-05,Budget,COGS,Cost of Goods Sold,Midwest,Stores,-10017216
+2024-05,Actual,Revenue,Revenue,Midwest,Stores,15941716
+2024-05,Actual,COGS,Cost of Goods Sold,Midwest,Stores,-9852162
+2024-05,Budget,Revenue,Revenue,Midwest,E-commerce,6283200
+2024-05,Budget,COGS,Cost of Goods Sold,Midwest,E-commerce,-3895584
+2024-05,Actual,Revenue,Revenue,Midwest,E-commerce,6606282
+2024-05,Actual,COGS,Cost of Goods Sold,Midwest,E-commerce,-4143712
+2024-05,Budget,Revenue,Revenue,Northeast,Stores,14688000
+2024-05,Budget,COGS,Cost of Goods Sold,Northeast,Stores,-9106560
+2024-05,Actual,Revenue,Revenue,Northeast,Stores,14674995
+2024-05,Actual,COGS,Cost of Goods Sold,Northeast,Stores,-9089190
+2024-05,Budget,Revenue,Revenue,Northeast,E-commerce,5712000
+2024-05,Budget,COGS,Cost of Goods Sold,Northeast,E-commerce,-3541440
+2024-05,Actual,Revenue,Revenue,Northeast,E-commerce,6077997
+2024-05,Actual,COGS,Cost of Goods Sold,Northeast,E-commerce,-3836659
+2024-06,Budget,Revenue,Revenue,West,Stores,26438400
+2024-06,Budget,COGS,Cost of Goods Sold,West,Stores,-16391808
+2024-06,Actual,Revenue,Revenue,West,Stores,27071685
+2024-06,Actual,COGS,Cost of Goods Sold,West,Stores,-16856122
+2024-06,Budget,Revenue,Revenue,West,E-commerce,10281600
+2024-06,Budget,COGS,Cost of Goods Sold,West,E-commerce,-6374592
+2024-06,Actual,Revenue,Revenue,West,E-commerce,10799202
+2024-06,Actual,COGS,Cost of Goods Sold,West,E-commerce,-6819987
+2024-06,Budget,Revenue,Revenue,Southwest,Stores,18662400
+2024-06,Budget,COGS,Cost of Goods Sold,Southwest,Stores,-11570688
+2024-06,Actual,Revenue,Revenue,Southwest,Stores,18476286
+2024-06,Actual,COGS,Cost of Goods Sold,Southwest,Stores,-11419307
+2024-06,Budget,Revenue,Revenue,Southwest,E-commerce,7257600
+2024-06,Budget,COGS,Cost of Goods Sold,Southwest,E-commerce,-4499712
+2024-06,Actual,Revenue,Revenue,Southwest,E-commerce,7657327
+2024-06,Actual,COGS,Cost of Goods Sold,Southwest,E-commerce,-4823733
+2024-06,Budget,Revenue,Revenue,Midwest,Stores,17107200
+2024-06,Budget,COGS,Cost of Goods Sold,Midwest,Stores,-10606464
+2024-06,Actual,Revenue,Revenue,Midwest,Stores,17527352
+2024-06,Actual,COGS,Cost of Goods Sold,Midwest,Stores,-10835652
+2024-06,Budget,Revenue,Revenue,Midwest,E-commerce,6652800
+2024-06,Budget,COGS,Cost of Goods Sold,Midwest,E-commerce,-4124736
+2024-06,Actual,Revenue,Revenue,Midwest,E-commerce,7169026
+2024-06,Actual,COGS,Cost of Goods Sold,Midwest,E-commerce,-4519310
+2024-06,Budget,Revenue,Revenue,Northeast,Stores,15552000
+2024-06,Budget,COGS,Cost of Goods Sold,Northeast,Stores,-9642240
+2024-06,Actual,Revenue,Revenue,Northeast,Stores,15578108
+2024-06,Actual,COGS,Cost of Goods Sold,Northeast,Stores,-9663394
+2024-06,Budget,Revenue,Revenue,Northeast,E-commerce,6048000
+2024-06,Budget,COGS,Cost of Goods Sold,Northeast,E-commerce,-3749760
+2024-06,Actual,Revenue,Revenue,Northeast,E-commerce,6140234
+2024-06,Actual,COGS,Cost of Goods Sold,Northeast,E-commerce,-3903890
+2024-07,Budget,Revenue,Revenue,West,Stores,25850880
+2024-07,Budget,COGS,Cost of Goods Sold,West,Stores,-16027546
+2024-07,Actual,Revenue,Revenue,West,Stores,25368226
+2024-07,Actual,COGS,Cost of Goods Sold,West,Stores,-15829494
+2024-07,Budget,Revenue,Revenue,West,E-commerce,10053120
+2024-07,Budget,COGS,Cost of Goods Sold,West,E-commerce,-6232934
+2024-07,Actual,Revenue,Revenue,West,E-commerce,10888517
+2024-07,Actual,COGS,Cost of Goods Sold,West,E-commerce,-6899203
+2024-07,Budget,Revenue,Revenue,Southwest,Stores,18247680
+2024-07,Budget,COGS,Cost of Goods Sold,Southwest,Stores,-11313562
+2024-07,Actual,Revenue,Revenue,Southwest,Stores,18521533
+2024-07,Actual,COGS,Cost of Goods Sold,Southwest,Stores,-11387096
+2024-07,Budget,Revenue,Revenue,Southwest,E-commerce,7096320
+2024-07,Budget,COGS,Cost of Goods Sold,Southwest,E-commerce,-4399718
+2024-07,Actual,Revenue,Revenue,Southwest,E-commerce,7607478
+2024-07,Actual,COGS,Cost of Goods Sold,Southwest,E-commerce,-4770269
+2024-07,Budget,Revenue,Revenue,Midwest,Stores,16727040
+2024-07,Budget,COGS,Cost of Goods Sold,Midwest,Stores,-10370765
+2024-07,Actual,Revenue,Revenue,Midwest,Stores,16579862
+2024-07,Actual,COGS,Cost of Goods Sold,Midwest,Stores,-10293139
+2024-07,Budget,Revenue,Revenue,Midwest,E-commerce,6504960
+2024-07,Budget,COGS,Cost of Goods Sold,Midwest,E-commerce,-4033075
+2024-07,Actual,Revenue,Revenue,Midwest,E-commerce,6810114
+2024-07,Actual,COGS,Cost of Goods Sold,Midwest,E-commerce,-4299607
+2024-07,Budget,Revenue,Revenue,Northeast,Stores,15206400
+2024-07,Budget,COGS,Cost of Goods Sold,Northeast,Stores,-9427968
+2024-07,Actual,Revenue,Revenue,Northeast,Stores,15757018
+2024-07,Actual,COGS,Cost of Goods Sold,Northeast,Stores,-9878221
+2024-07,Budget,Revenue,Revenue,Northeast,E-commerce,5913600
+2024-07,Budget,COGS,Cost of Goods Sold,Northeast,E-commerce,-3666432
+2024-07,Actual,Revenue,Revenue,Northeast,E-commerce,6410503
+2024-07,Actual,COGS,Cost of Goods Sold,Northeast,E-commerce,-4032521
+2024-08,Budget,Revenue,Revenue,West,Stores,24088320
+2024-08,Budget,COGS,Cost of Goods Sold,West,Stores,-14934758
+2024-08,Actual,Revenue,Revenue,West,Stores,24143243
+2024-08,Actual,COGS,Cost of Goods Sold,West,Stores,-15108461
+2024-08,Budget,Revenue,Revenue,West,E-commerce,9367680
+2024-08,Budget,COGS,Cost of Goods Sold,West,E-commerce,-5807962
+2024-08,Actual,Revenue,Revenue,West,E-commerce,10181729
+2024-08,Actual,COGS,Cost of Goods Sold,West,E-commerce,-6436054
+2024-08,Budget,Revenue,Revenue,Southwest,Stores,17003520
+2024-08,Budget,COGS,Cost of Goods Sold,Southwest,Stores,-10542182
+2024-08,Actual,Revenue,Revenue,Southwest,Stores,17596172
+2024-08,Actual,COGS,Cost of Goods Sold,Southwest,Stores,-10908088
+2024-08,Budget,Revenue,Revenue,Southwest,E-commerce,6612480
+2024-08,Budget,COGS,Cost of Goods Sold,Southwest,E-commerce,-4099738
+2024-08,Actual,Revenue,Revenue,Southwest,E-commerce,7536876
+2024-08,Actual,COGS,Cost of Goods Sold,Southwest,E-commerce,-4755448
+2024-08,Budget,Revenue,Revenue,Midwest,Stores,15586560
+2024-08,Budget,COGS,Cost of Goods Sold,Midwest,Stores,-9663667
+2024-08,Actual,Revenue,Revenue,Midwest,Stores,15451887
+2024-08,Actual,COGS,Cost of Goods Sold,Midwest,Stores,-9569090
+2024-08,Budget,Revenue,Revenue,Midwest,E-commerce,6061440
+2024-08,Budget,COGS,Cost of Goods Sold,Midwest,E-commerce,-3758093
+2024-08,Actual,Revenue,Revenue,Midwest,E-commerce,6612488
+2024-08,Actual,COGS,Cost of Goods Sold,Midwest,E-commerce,-4129917
+2024-08,Budget,Revenue,Revenue,Northeast,Stores,14169600
+2024-08,Budget,COGS,Cost of Goods Sold,Northeast,Stores,-8785152
+2024-08,Actual,Revenue,Revenue,Northeast,Stores,14717015
+2024-08,Actual,COGS,Cost of Goods Sold,Northeast,Stores,-9103541
+2024-08,Budget,Revenue,Revenue,Northeast,E-commerce,5510400
+2024-08,Budget,COGS,Cost of Goods Sold,Northeast,E-commerce,-3416448
+2024-08,Actual,Revenue,Revenue,Northeast,E-commerce,6197180
+2024-08,Actual,COGS,Cost of Goods Sold,Northeast,E-commerce,-3933691
+2024-09,Budget,Revenue,Revenue,West,Stores,22032000
+2024-09,Budget,COGS,Cost of Goods Sold,West,Stores,-13659840
+2024-09,Actual,Revenue,Revenue,West,Stores,22111078
+2024-09,Actual,COGS,Cost of Goods Sold,West,Stores,-13790819
+2024-09,Budget,Revenue,Revenue,West,E-commerce,8568000
+2024-09,Budget,COGS,Cost of Goods Sold,West,E-commerce,-5312160
+2024-09,Actual,Revenue,Revenue,West,E-commerce,9313043
+2024-09,Actual,COGS,Cost of Goods Sold,West,E-commerce,-5918502
+2024-09,Budget,Revenue,Revenue,Southwest,Stores,15552000
+2024-09,Budget,COGS,Cost of Goods Sold,Southwest,Stores,-9642240
+2024-09,Actual,Revenue,Revenue,Southwest,Stores,16321284
+2024-09,Actual,COGS,Cost of Goods Sold,Southwest,Stores,-10133704
+2024-09,Budget,Revenue,Revenue,Southwest,E-commerce,6048000
+2024-09,Budget,COGS,Cost of Goods Sold,Southwest,E-commerce,-3749760
+2024-09,Actual,Revenue,Revenue,Southwest,E-commerce,6468431
+2024-09,Actual,COGS,Cost of Goods Sold,Southwest,E-commerce,-4101388
+2024-09,Budget,Revenue,Revenue,Midwest,Stores,14256000
+2024-09,Budget,COGS,Cost of Goods Sold,Midwest,Stores,-8838720
+2024-09,Actual,Revenue,Revenue,Midwest,Stores,14653673
+2024-09,Actual,COGS,Cost of Goods Sold,Midwest,Stores,-9036151
+2024-09,Budget,Revenue,Revenue,Midwest,E-commerce,5544000
+2024-09,Budget,COGS,Cost of Goods Sold,Midwest,E-commerce,-3437280
+2024-09,Actual,Revenue,Revenue,Midwest,E-commerce,6389163
+2024-09,Actual,COGS,Cost of Goods Sold,Midwest,E-commerce,-3950704
+2024-09,Budget,Revenue,Revenue,Northeast,Stores,12960000
+2024-09,Budget,COGS,Cost of Goods Sold,Northeast,Stores,-8035200
+2024-09,Actual,Revenue,Revenue,Northeast,Stores,13354862
+2024-09,Actual,COGS,Cost of Goods Sold,Northeast,Stores,-8332875
+2024-09,Budget,Revenue,Revenue,Northeast,E-commerce,5040000
+2024-09,Budget,COGS,Cost of Goods Sold,Northeast,E-commerce,-3124800
+2024-09,Actual,Revenue,Revenue,Northeast,E-commerce,5237302
+2024-09,Actual,COGS,Cost of Goods Sold,Northeast,E-commerce,-3293892
+2024-10,Budget,Revenue,Revenue,West,Stores,23500800
+2024-10,Budget,COGS,Cost of Goods Sold,West,Stores,-14570496
+2024-10,Actual,Revenue,Revenue,West,Stores,23539284
+2024-10,Actual,COGS,Cost of Goods Sold,West,Stores,-14633465
+2024-10,Budget,Revenue,Revenue,West,E-commerce,9139200
+2024-10,Budget,COGS,Cost of Goods Sold,West,E-commerce,-5666304
+2024-10,Actual,Revenue,Revenue,West,E-commerce,9993887
+2024-10,Actual,COGS,Cost of Goods Sold,West,E-commerce,-6301777
+2024-10,Budget,Revenue,Revenue,Southwest,Stores,16588800
+2024-10,Budget,COGS,Cost of Goods Sold,Southwest,Stores,-10285056
+2024-10,Actual,Revenue,Revenue,Southwest,Stores,17665631
+2024-10,Actual,COGS,Cost of Goods Sold,Southwest,Stores,-10941594
+2024-10,Budget,Revenue,Revenue,Southwest,E-commerce,6451200
+2024-10,Budget,COGS,Cost of Goods Sold,Southwest,E-commerce,-3999744
+2024-10,Actual,Revenue,Revenue,Southwest,E-commerce,7228599
+2024-10,Actual,COGS,Cost of Goods Sold,Southwest,E-commerce,-4583963
+2024-10,Budget,Revenue,Revenue,Midwest,Stores,15206400
+2024-10,Budget,COGS,Cost of Goods Sold,Midwest,Stores,-9427968
+2024-10,Actual,Revenue,Revenue,Midwest,Stores,14896358
+2024-10,Actual,COGS,Cost of Goods Sold,Midwest,Stores,-9264719
+2024-10,Budget,Revenue,Revenue,Midwest,E-commerce,5913600
+2024-10,Budget,COGS,Cost of Goods Sold,Midwest,E-commerce,-3666432
+2024-10,Actual,Revenue,Revenue,Midwest,E-commerce,6558296
+2024-10,Actual,COGS,Cost of Goods Sold,Midwest,E-commerce,-4085348
+2024-10,Budget,Revenue,Revenue,Northeast,Stores,13824000
+2024-10,Budget,COGS,Cost of Goods Sold,Northeast,Stores,-8570880
+2024-10,Actual,Revenue,Revenue,Northeast,Stores,14179920
+2024-10,Actual,COGS,Cost of Goods Sold,Northeast,Stores,-8735810
+2024-10,Budget,Revenue,Revenue,Northeast,E-commerce,5376000
+2024-10,Budget,COGS,Cost of Goods Sold,Northeast,E-commerce,-3333120
+2024-10,Actual,Revenue,Revenue,Northeast,E-commerce,5895593
+2024-10,Actual,COGS,Cost of Goods Sold,Northeast,E-commerce,-3742167
+2024-11,Budget,Revenue,Revenue,West,Stores,30844800
+2024-11,Budget,COGS,Cost of Goods Sold,West,Stores,-19123776
+2024-11,Actual,Revenue,Revenue,West,Stores,30851234
+2024-11,Actual,COGS,Cost of Goods Sold,West,Stores,-19217262
+2024-11,Budget,Revenue,Revenue,West,E-commerce,11995200
+2024-11,Budget,COGS,Cost of Goods Sold,West,E-commerce,-7437024
+2024-11,Actual,Revenue,Revenue,West,E-commerce,14193997
+2024-11,Actual,COGS,Cost of Goods Sold,West,E-commerce,-8988853
+2024-11,Budget,Revenue,Revenue,Southwest,Stores,21772800
+2024-11,Budget,COGS,Cost of Goods Sold,Southwest,Stores,-13499136
+2024-11,Actual,Revenue,Revenue,Southwest,Stores,23151637
+2024-11,Actual,COGS,Cost of Goods Sold,Southwest,Stores,-14437632
+2024-11,Budget,Revenue,Revenue,Southwest,E-commerce,8467200
+2024-11,Budget,COGS,Cost of Goods Sold,Southwest,E-commerce,-5249664
+2024-11,Actual,Revenue,Revenue,Southwest,E-commerce,9875516
+2024-11,Actual,COGS,Cost of Goods Sold,Southwest,E-commerce,-6206369
+2024-11,Budget,Revenue,Revenue,Midwest,Stores,19958400
+2024-11,Budget,COGS,Cost of Goods Sold,Midwest,Stores,-12374208
+2024-11,Actual,Revenue,Revenue,Midwest,Stores,20376022
+2024-11,Actual,COGS,Cost of Goods Sold,Midwest,Stores,-12636456
+2024-11,Budget,Revenue,Revenue,Midwest,E-commerce,7761600
+2024-11,Budget,COGS,Cost of Goods Sold,Midwest,E-commerce,-4812192
+2024-11,Actual,Revenue,Revenue,Midwest,E-commerce,8577578
+2024-11,Actual,COGS,Cost of Goods Sold,Midwest,E-commerce,-5388569
+2024-11,Budget,Revenue,Revenue,Northeast,Stores,18144000
+2024-11,Budget,COGS,Cost of Goods Sold,Northeast,Stores,-11249280
+2024-11,Actual,Revenue,Revenue,Northeast,Stores,18384952
+2024-11,Actual,COGS,Cost of Goods Sold,Northeast,Stores,-11488801
+2024-11,Budget,Revenue,Revenue,Northeast,E-commerce,7056000
+2024-11,Budget,COGS,Cost of Goods Sold,Northeast,E-commerce,-4374720
+2024-11,Actual,Revenue,Revenue,Northeast,E-commerce,7674297
+2024-11,Actual,COGS,Cost of Goods Sold,Northeast,E-commerce,-4829509
+2024-12,Budget,Revenue,Revenue,West,Stores,35251200
+2024-12,Budget,COGS,Cost of Goods Sold,West,Stores,-21855744
+2024-12,Actual,Revenue,Revenue,West,Stores,37649253
+2024-12,Actual,COGS,Cost of Goods Sold,West,Stores,-23318443
+2024-12,Budget,Revenue,Revenue,West,E-commerce,13708800
+2024-12,Budget,COGS,Cost of Goods Sold,West,E-commerce,-8499456
+2024-12,Actual,Revenue,Revenue,West,E-commerce,15536354
+2024-12,Actual,COGS,Cost of Goods Sold,West,E-commerce,-9770140
+2024-12,Budget,Revenue,Revenue,Southwest,Stores,24883200
+2024-12,Budget,COGS,Cost of Goods Sold,Southwest,Stores,-15427584
+2024-12,Actual,Revenue,Revenue,Southwest,Stores,26870944
+2024-12,Actual,COGS,Cost of Goods Sold,Southwest,Stores,-16636405
+2024-12,Budget,Revenue,Revenue,Southwest,E-commerce,9676800
+2024-12,Budget,COGS,Cost of Goods Sold,Southwest,E-commerce,-5999616
+2024-12,Actual,Revenue,Revenue,Southwest,E-commerce,11059890
+2024-12,Actual,COGS,Cost of Goods Sold,Southwest,E-commerce,-6918789
+2024-12,Budget,Revenue,Revenue,Midwest,Stores,22809600
+2024-12,Budget,COGS,Cost of Goods Sold,Midwest,Stores,-14141952
+2024-12,Actual,Revenue,Revenue,Midwest,Stores,23687298
+2024-12,Actual,COGS,Cost of Goods Sold,Midwest,Stores,-14540613
+2024-12,Budget,Revenue,Revenue,Midwest,E-commerce,8870400
+2024-12,Budget,COGS,Cost of Goods Sold,Midwest,E-commerce,-5499648
+2024-12,Actual,Revenue,Revenue,Midwest,E-commerce,10129028
+2024-12,Actual,COGS,Cost of Goods Sold,Midwest,E-commerce,-6430899
+2024-12,Budget,Revenue,Revenue,Northeast,Stores,20736000
+2024-12,Budget,COGS,Cost of Goods Sold,Northeast,Stores,-12856320
+2024-12,Actual,Revenue,Revenue,Northeast,Stores,20576801
+2024-12,Actual,COGS,Cost of Goods Sold,Northeast,Stores,-12621733
+2024-12,Budget,Revenue,Revenue,Northeast,E-commerce,8064000
+2024-12,Budget,COGS,Cost of Goods Sold,Northeast,E-commerce,-4999680
+2024-12,Actual,Revenue,Revenue,Northeast,E-commerce,9561206
+2024-12,Actual,COGS,Cost of Goods Sold,Northeast,E-commerce,-6030425
+2025-01,Budget,Revenue,Revenue,West,Stores,20240064
+2025-01,Budget,COGS,Cost of Goods Sold,West,Stores,-12548840
+2025-01,Actual,Revenue,Revenue,West,Stores,19478826
+2025-01,Actual,COGS,Cost of Goods Sold,West,Stores,-11963003
+2025-01,Budget,Revenue,Revenue,West,E-commerce,7871136
+2025-01,Budget,COGS,Cost of Goods Sold,West,E-commerce,-4880104
+2025-01,Actual,Revenue,Revenue,West,E-commerce,8303101
+2025-01,Actual,COGS,Cost of Goods Sold,West,E-commerce,-5260670
+2025-01,Budget,Revenue,Revenue,Southwest,Stores,14287104
+2025-01,Budget,COGS,Cost of Goods Sold,Southwest,Stores,-8858004
+2025-01,Actual,Revenue,Revenue,Southwest,Stores,14379934
+2025-01,Actual,COGS,Cost of Goods Sold,Southwest,Stores,-8938257
+2025-01,Budget,Revenue,Revenue,Southwest,E-commerce,5556096
+2025-01,Budget,COGS,Cost of Goods Sold,Southwest,E-commerce,-3444780
+2025-01,Actual,Revenue,Revenue,Southwest,E-commerce,6131887
+2025-01,Actual,COGS,Cost of Goods Sold,Southwest,E-commerce,-3867097
+2025-01,Budget,Revenue,Revenue,Midwest,Stores,13096512
+2025-01,Budget,COGS,Cost of Goods Sold,Midwest,Stores,-8119837
+2025-01,Actual,Revenue,Revenue,Midwest,Stores,12833254
+2025-01,Actual,COGS,Cost of Goods Sold,Midwest,Stores,-7884367
+2025-01,Budget,Revenue,Revenue,Midwest,E-commerce,5093088
+2025-01,Budget,COGS,Cost of Goods Sold,Midwest,E-commerce,-3157715
+2025-01,Actual,Revenue,Revenue,Midwest,E-commerce,5538033
+2025-01,Actual,COGS,Cost of Goods Sold,Midwest,E-commerce,-3474696
+2025-01,Budget,Revenue,Revenue,Northeast,Stores,11905920
+2025-01,Budget,COGS,Cost of Goods Sold,Northeast,Stores,-7381670
+2025-01,Actual,Revenue,Revenue,Northeast,Stores,10976001
+2025-01,Actual,COGS,Cost of Goods Sold,Northeast,Stores,-6807260
+2025-01,Budget,Revenue,Revenue,Northeast,E-commerce,4630080
+2025-01,Budget,COGS,Cost of Goods Sold,Northeast,E-commerce,-2870650
+2025-01,Actual,Revenue,Revenue,Northeast,E-commerce,4917307
+2025-01,Actual,COGS,Cost of Goods Sold,Northeast,E-commerce,-3121877
+2025-02,Budget,Revenue,Revenue,West,Stores,18683136
+2025-02,Budget,COGS,Cost of Goods Sold,West,Stores,-11583544
+2025-02,Actual,Revenue,Revenue,West,Stores,17799601
+2025-02,Actual,COGS,Cost of Goods Sold,West,Stores,-11059542
+2025-02,Budget,Revenue,Revenue,West,E-commerce,7265664
+2025-02,Budget,COGS,Cost of Goods Sold,West,E-commerce,-4504712
+2025-02,Actual,Revenue,Revenue,West,E-commerce,8157509
+2025-02,Actual,COGS,Cost of Goods Sold,West,E-commerce,-5182511
+2025-02,Budget,Revenue,Revenue,Southwest,Stores,13188096
+2025-02,Budget,COGS,Cost of Goods Sold,Southwest,Stores,-8176620
+2025-02,Actual,Revenue,Revenue,Southwest,Stores,13126948
+2025-02,Actual,COGS,Cost of Goods Sold,Southwest,Stores,-8164130
+2025-02,Budget,Revenue,Revenue,Southwest,E-commerce,5128704
+2025-02,Budget,COGS,Cost of Goods Sold,Southwest,E-commerce,-3179796
+2025-02,Actual,Revenue,Revenue,Southwest,E-commerce,5688496
+2025-02,Actual,COGS,Cost of Goods Sold,Southwest,E-commerce,-3560936
+2025-02,Budget,Revenue,Revenue,Midwest,Stores,12089088
+2025-02,Budget,COGS,Cost of Goods Sold,Midwest,Stores,-7495235
+2025-02,Actual,Revenue,Revenue,Midwest,Stores,11934335
+2025-02,Actual,COGS,Cost of Goods Sold,Midwest,Stores,-7335444
+2025-02,Budget,Revenue,Revenue,Midwest,E-commerce,4701312
+2025-02,Budget,COGS,Cost of Goods Sold,Midwest,E-commerce,-2914813
+2025-02,Actual,Revenue,Revenue,Midwest,E-commerce,5140300
+2025-02,Actual,COGS,Cost of Goods Sold,Midwest,E-commerce,-3252698
+2025-02,Budget,Revenue,Revenue,Northeast,Stores,10990080
+2025-02,Budget,COGS,Cost of Goods Sold,Northeast,Stores,-6813850
+2025-02,Actual,Revenue,Revenue,Northeast,Stores,10645465
+2025-02,Actual,COGS,Cost of Goods Sold,Northeast,Stores,-6589862
+2025-02,Budget,Revenue,Revenue,Northeast,E-commerce,4273920
+2025-02,Budget,COGS,Cost of Goods Sold,Northeast,E-commerce,-2649830
+2025-02,Actual,Revenue,Revenue,Northeast,E-commerce,4711828
+2025-02,Actual,COGS,Cost of Goods Sold,Northeast,E-commerce,-2988889
+2025-03,Budget,Revenue,Revenue,West,Stores,22419763
+2025-03,Budget,COGS,Cost of Goods Sold,West,Stores,-13900253
+2025-03,Actual,Revenue,Revenue,West,Stores,21942358
+2025-03,Actual,COGS,Cost of Goods Sold,West,Stores,-13584230
+2025-03,Budget,Revenue,Revenue,West,E-commerce,8718797
+2025-03,Budget,COGS,Cost of Goods Sold,West,E-commerce,-5405654
+2025-03,Actual,Revenue,Revenue,West,E-commerce,10291349
+2025-03,Actual,COGS,Cost of Goods Sold,West,E-commerce,-6406289
+2025-03,Budget,Revenue,Revenue,Southwest,Stores,15825715
+2025-03,Budget,COGS,Cost of Goods Sold,Southwest,Stores,-9811943
+2025-03,Actual,Revenue,Revenue,Southwest,Stores,15467286
+2025-03,Actual,COGS,Cost of Goods Sold,Southwest,Stores,-9607498
+2025-03,Budget,Revenue,Revenue,Southwest,E-commerce,6154445
+2025-03,Budget,COGS,Cost of Goods Sold,Southwest,E-commerce,-3815756
+2025-03,Actual,Revenue,Revenue,Southwest,E-commerce,6718095
+2025-03,Actual,COGS,Cost of Goods Sold,Southwest,E-commerce,-4248273
+2025-03,Budget,Revenue,Revenue,Midwest,Stores,14506906
+2025-03,Budget,COGS,Cost of Goods Sold,Midwest,Stores,-8994281
+2025-03,Actual,Revenue,Revenue,Midwest,Stores,14277720
+2025-03,Actual,COGS,Cost of Goods Sold,Midwest,Stores,-8783319
+2025-03,Budget,Revenue,Revenue,Midwest,E-commerce,5641574
+2025-03,Budget,COGS,Cost of Goods Sold,Midwest,E-commerce,-3497776
+2025-03,Actual,Revenue,Revenue,Midwest,E-commerce,6150631
+2025-03,Actual,COGS,Cost of Goods Sold,Midwest,E-commerce,-3890991
+2025-03,Budget,Revenue,Revenue,Northeast,Stores,13188096
+2025-03,Budget,COGS,Cost of Goods Sold,Northeast,Stores,-8176620
+2025-03,Actual,Revenue,Revenue,Northeast,Stores,12186809
+2025-03,Actual,COGS,Cost of Goods Sold,Northeast,Stores,-7563751
+2025-03,Budget,Revenue,Revenue,Northeast,E-commerce,5128704
+2025-03,Budget,COGS,Cost of Goods Sold,Northeast,E-commerce,-3179796
+2025-03,Actual,Revenue,Revenue,Northeast,E-commerce,5544022
+2025-03,Actual,COGS,Cost of Goods Sold,Northeast,E-commerce,-3504475
+2025-04,Budget,Revenue,Revenue,West,Stores,24288077
+2025-04,Budget,COGS,Cost of Goods Sold,West,Stores,-15058608
+2025-04,Actual,Revenue,Revenue,West,Stores,23254526
+2025-04,Actual,COGS,Cost of Goods Sold,West,Stores,-14426574
+2025-04,Budget,Revenue,Revenue,West,E-commerce,9445363
+2025-04,Budget,COGS,Cost of Goods Sold,West,E-commerce,-5856125
+2025-04,Actual,Revenue,Revenue,West,E-commerce,10145391
+2025-04,Actual,COGS,Cost of Goods Sold,West,E-commerce,-6451131
+2025-04,Budget,Revenue,Revenue,Southwest,Stores,17144525
+2025-04,Budget,COGS,Cost of Goods Sold,Southwest,Stores,-10629605
+2025-04,Actual,Revenue,Revenue,Southwest,Stores,18106309
+2025-04,Actual,COGS,Cost of Goods Sold,Southwest,Stores,-11319153
+2025-04,Budget,Revenue,Revenue,Southwest,E-commerce,6667315
+2025-04,Budget,COGS,Cost of Goods Sold,Southwest,E-commerce,-4133735
+2025-04,Actual,Revenue,Revenue,Southwest,E-commerce,7443941
+2025-04,Actual,COGS,Cost of Goods Sold,Southwest,E-commerce,-4634988
+2025-04,Budget,Revenue,Revenue,Midwest,Stores,15715814
+2025-04,Budget,COGS,Cost of Goods Sold,Midwest,Stores,-9743805
+2025-04,Actual,Revenue,Revenue,Midwest,Stores,16501604
+2025-04,Actual,COGS,Cost of Goods Sold,Midwest,Stores,-10308325
+2025-04,Budget,Revenue,Revenue,Midwest,E-commerce,6111706
+2025-04,Budget,COGS,Cost of Goods Sold,Midwest,E-commerce,-3789257
+2025-04,Actual,Revenue,Revenue,Midwest,E-commerce,6803183
+2025-04,Actual,COGS,Cost of Goods Sold,Midwest,E-commerce,-4276710
+2025-04,Budget,Revenue,Revenue,Northeast,Stores,14287104
+2025-04,Budget,COGS,Cost of Goods Sold,Northeast,Stores,-8858004
+2025-04,Actual,Revenue,Revenue,Northeast,Stores,14590148
+2025-04,Actual,COGS,Cost of Goods Sold,Northeast,Stores,-9103486
+2025-04,Budget,Revenue,Revenue,Northeast,E-commerce,5556096
+2025-04,Budget,COGS,Cost of Goods Sold,Northeast,E-commerce,-3444780
+2025-04,Actual,Revenue,Revenue,Northeast,E-commerce,6203902
+2025-04,Actual,COGS,Cost of Goods Sold,Northeast,E-commerce,-3889168
+2025-05,Budget,Revenue,Revenue,West,Stores,26467776
+2025-05,Budget,COGS,Cost of Goods Sold,West,Stores,-16410021
+2025-05,Actual,Revenue,Revenue,West,Stores,26255653
+2025-05,Actual,COGS,Cost of Goods Sold,West,Stores,-16318010
+2025-05,Budget,Revenue,Revenue,West,E-commerce,10293024
+2025-05,Budget,COGS,Cost of Goods Sold,West,E-commerce,-6381675
+2025-05,Actual,Revenue,Revenue,West,E-commerce,11660366
+2025-05,Actual,COGS,Cost of Goods Sold,West,E-commerce,-7410158
+2025-05,Budget,Revenue,Revenue,Southwest,Stores,18683136
+2025-05,Budget,COGS,Cost of Goods Sold,Southwest,Stores,-11583544
+2025-05,Actual,Revenue,Revenue,Southwest,Stores,18698322
+2025-05,Actual,COGS,Cost of Goods Sold,Southwest,Stores,-11612884
+2025-05,Budget,Revenue,Revenue,Southwest,E-commerce,7265664
+2025-05,Budget,COGS,Cost of Goods Sold,Southwest,E-commerce,-4504712
+2025-05,Actual,Revenue,Revenue,Southwest,E-commerce,8499579
+2025-05,Actual,COGS,Cost of Goods Sold,Southwest,E-commerce,-5373615
+2025-05,Budget,Revenue,Revenue,Midwest,Stores,17126208
+2025-05,Budget,COGS,Cost of Goods Sold,Midwest,Stores,-10618249
+2025-05,Actual,Revenue,Revenue,Midwest,Stores,17004402
+2025-05,Actual,COGS,Cost of Goods Sold,Midwest,Stores,-10473847
+2025-05,Budget,Revenue,Revenue,Midwest,E-commerce,6660192
+2025-05,Budget,COGS,Cost of Goods Sold,Midwest,E-commerce,-4129319
+2025-05,Actual,Revenue,Revenue,Midwest,E-commerce,7599685
+2025-05,Actual,COGS,Cost of Goods Sold,Midwest,E-commerce,-4777109
+2025-05,Budget,Revenue,Revenue,Northeast,Stores,15569280
+2025-05,Budget,COGS,Cost of Goods Sold,Northeast,Stores,-9652954
+2025-05,Actual,Revenue,Revenue,Northeast,Stores,15298742
+2025-05,Actual,COGS,Cost of Goods Sold,Northeast,Stores,-9485215
+2025-05,Budget,Revenue,Revenue,Northeast,E-commerce,6054720
+2025-05,Budget,COGS,Cost of Goods Sold,Northeast,E-commerce,-3753926
+2025-05,Actual,Revenue,Revenue,Northeast,E-commerce,6757918
+2025-05,Actual,COGS,Cost of Goods Sold,Northeast,E-commerce,-4248933
+2025-06,Budget,Revenue,Revenue,West,Stores,28024704
+2025-06,Budget,COGS,Cost of Goods Sold,West,Stores,-17375316
+2025-06,Actual,Revenue,Revenue,West,Stores,27501962
+2025-06,Actual,COGS,Cost of Goods Sold,West,Stores,-16820951
+2025-06,Budget,Revenue,Revenue,West,E-commerce,10898496
+2025-06,Budget,COGS,Cost of Goods Sold,West,E-commerce,-6757068
+2025-06,Actual,Revenue,Revenue,West,E-commerce,13025800
+2025-06,Actual,COGS,Cost of Goods Sold,West,E-commerce,-8186150
+2025-06,Budget,Revenue,Revenue,Southwest,Stores,19782144
+2025-06,Budget,COGS,Cost of Goods Sold,Southwest,Stores,-12264929
+2025-06,Actual,Revenue,Revenue,Southwest,Stores,19616469
+2025-06,Actual,COGS,Cost of Goods Sold,Southwest,Stores,-12249497
+2025-06,Budget,Revenue,Revenue,Southwest,E-commerce,7693056
+2025-06,Budget,COGS,Cost of Goods Sold,Southwest,E-commerce,-4769695
+2025-06,Actual,Revenue,Revenue,Southwest,E-commerce,9335413
+2025-06,Actual,COGS,Cost of Goods Sold,Southwest,E-commerce,-5871498
+2025-06,Budget,Revenue,Revenue,Midwest,Stores,18133632
+2025-06,Budget,COGS,Cost of Goods Sold,Midwest,Stores,-11242852
+2025-06,Actual,Revenue,Revenue,Midwest,Stores,18052903
+2025-06,Actual,COGS,Cost of Goods Sold,Midwest,Stores,-11318779
+2025-06,Budget,Revenue,Revenue,Midwest,E-commerce,7051968
+2025-06,Budget,COGS,Cost of Goods Sold,Midwest,E-commerce,-4372220
+2025-06,Actual,Revenue,Revenue,Midwest,E-commerce,8297507
+2025-06,Actual,COGS,Cost of Goods Sold,Midwest,E-commerce,-5212347
+2025-06,Budget,Revenue,Revenue,Northeast,Stores,16485120
+2025-06,Budget,COGS,Cost of Goods Sold,Northeast,Stores,-10220774
+2025-06,Actual,Revenue,Revenue,Northeast,Stores,15766869
+2025-06,Actual,COGS,Cost of Goods Sold,Northeast,Stores,-9805197
+2025-06,Budget,Revenue,Revenue,Northeast,E-commerce,6410880
+2025-06,Budget,COGS,Cost of Goods Sold,Northeast,E-commerce,-3974746
+2025-06,Actual,Revenue,Revenue,Northeast,E-commerce,7420860
+2025-06,Actual,COGS,Cost of Goods Sold,Northeast,E-commerce,-4673585
+2025-07,Budget,Revenue,Revenue,West,Stores,27401933
+2025-07,Budget,COGS,Cost of Goods Sold,West,Stores,-16989198
+2025-07,Actual,Revenue,Revenue,West,Stores,26825469
+2025-07,Actual,COGS,Cost of Goods Sold,West,Stores,-17045277
+2025-07,Budget,Revenue,Revenue,West,E-commerce,10656307
+2025-07,Budget,COGS,Cost of Goods Sold,West,E-commerce,-6606910
+2025-07,Actual,Revenue,Revenue,West,E-commerce,12319786
+2025-07,Actual,COGS,Cost of Goods Sold,West,E-commerce,-7938744
+2025-07,Budget,Revenue,Revenue,Southwest,Stores,19342541
+2025-07,Budget,COGS,Cost of Goods Sold,Southwest,Stores,-11992375
+2025-07,Actual,Revenue,Revenue,Southwest,Stores,20355477
+2025-07,Actual,COGS,Cost of Goods Sold,Southwest,Stores,-13134710
+2025-07,Budget,Revenue,Revenue,Southwest,E-commerce,7522099
+2025-07,Budget,COGS,Cost of Goods Sold,Southwest,E-commerce,-4663702
+2025-07,Actual,Revenue,Revenue,Southwest,E-commerce,8927560
+2025-07,Actual,COGS,Cost of Goods Sold,Southwest,E-commerce,-5751973
+2025-07,Budget,Revenue,Revenue,Midwest,Stores,17730662
+2025-07,Budget,COGS,Cost of Goods Sold,Midwest,Stores,-10993011
+2025-07,Actual,Revenue,Revenue,Midwest,Stores,17614763
+2025-07,Actual,COGS,Cost of Goods Sold,Midwest,Stores,-11211580
+2025-07,Budget,Revenue,Revenue,Midwest,E-commerce,6895258
+2025-07,Budget,COGS,Cost of Goods Sold,Midwest,E-commerce,-4275060
+2025-07,Actual,Revenue,Revenue,Midwest,E-commerce,7669844
+2025-07,Actual,COGS,Cost of Goods Sold,Midwest,E-commerce,-4936986
+2025-07,Budget,Revenue,Revenue,Northeast,Stores,16118784
+2025-07,Budget,COGS,Cost of Goods Sold,Northeast,Stores,-9993646
+2025-07,Actual,Revenue,Revenue,Northeast,Stores,16456366
+2025-07,Actual,COGS,Cost of Goods Sold,Northeast,Stores,-10550760
+2025-07,Budget,Revenue,Revenue,Northeast,E-commerce,6268416
+2025-07,Budget,COGS,Cost of Goods Sold,Northeast,E-commerce,-3886418
+2025-07,Actual,Revenue,Revenue,Northeast,E-commerce,7450369
+2025-07,Actual,COGS,Cost of Goods Sold,Northeast,E-commerce,-4815278
+2025-08,Budget,Revenue,Revenue,West,Stores,25533619
+2025-08,Budget,COGS,Cost of Goods Sold,West,Stores,-15830844
+2025-08,Actual,Revenue,Revenue,West,Stores,25203786
+2025-08,Actual,COGS,Cost of Goods Sold,West,Stores,-16110552
+2025-08,Budget,Revenue,Revenue,West,E-commerce,9929741
+2025-08,Budget,COGS,Cost of Goods Sold,West,E-commerce,-6156439
+2025-08,Actual,Revenue,Revenue,West,E-commerce,11590185
+2025-08,Actual,COGS,Cost of Goods Sold,West,E-commerce,-7415399
+2025-08,Budget,Revenue,Revenue,Southwest,Stores,18023731
+2025-08,Budget,COGS,Cost of Goods Sold,Southwest,Stores,-11174713
+2025-08,Actual,Revenue,Revenue,Southwest,Stores,18636701
+2025-08,Actual,COGS,Cost of Goods Sold,Southwest,Stores,-11705167
+2025-08,Budget,Revenue,Revenue,Southwest,E-commerce,7009229
+2025-08,Budget,COGS,Cost of Goods Sold,Southwest,E-commerce,-4345722
+2025-08,Actual,Revenue,Revenue,Southwest,E-commerce,8728194
+2025-08,Actual,COGS,Cost of Goods Sold,Southwest,E-commerce,-5614355
+2025-08,Budget,Revenue,Revenue,Midwest,Stores,16521754
+2025-08,Budget,COGS,Cost of Goods Sold,Midwest,Stores,-10243487
+2025-08,Actual,Revenue,Revenue,Midwest,Stores,17045481
+2025-08,Actual,COGS,Cost of Goods Sold,Midwest,Stores,-10793949
+2025-08,Budget,Revenue,Revenue,Midwest,E-commerce,6425126
+2025-08,Budget,COGS,Cost of Goods Sold,Midwest,E-commerce,-3983578
+2025-08,Actual,Revenue,Revenue,Midwest,E-commerce,7719314
+2025-08,Actual,COGS,Cost of Goods Sold,Midwest,E-commerce,-4988115
+2025-08,Budget,Revenue,Revenue,Northeast,Stores,15019776
+2025-08,Budget,COGS,Cost of Goods Sold,Northeast,Stores,-9312261
+2025-08,Actual,Revenue,Revenue,Northeast,Stores,14648288
+2025-08,Actual,COGS,Cost of Goods Sold,Northeast,Stores,-9342527
+2025-08,Budget,Revenue,Revenue,Northeast,E-commerce,5841024
+2025-08,Budget,COGS,Cost of Goods Sold,Northeast,E-commerce,-3621435
+2025-08,Actual,Revenue,Revenue,Northeast,E-commerce,7045334
+2025-08,Actual,COGS,Cost of Goods Sold,Northeast,E-commerce,-4577446
+2025-09,Budget,Revenue,Revenue,West,Stores,23353920
+2025-09,Budget,COGS,Cost of Goods Sold,West,Stores,-14479430
+2025-09,Actual,Revenue,Revenue,West,Stores,23597259
+2025-09,Actual,COGS,Cost of Goods Sold,West,Stores,-15002255
+2025-09,Budget,Revenue,Revenue,West,E-commerce,9082080
+2025-09,Budget,COGS,Cost of Goods Sold,West,E-commerce,-5630890
+2025-09,Actual,Revenue,Revenue,West,E-commerce,11132086
+2025-09,Actual,COGS,Cost of Goods Sold,West,E-commerce,-7146761
+2025-09,Budget,Revenue,Revenue,Southwest,Stores,16485120
+2025-09,Budget,COGS,Cost of Goods Sold,Southwest,Stores,-10220774
+2025-09,Actual,Revenue,Revenue,Southwest,Stores,17637316
+2025-09,Actual,COGS,Cost of Goods Sold,Southwest,Stores,-11148140
+2025-09,Budget,Revenue,Revenue,Southwest,E-commerce,6410880
+2025-09,Budget,COGS,Cost of Goods Sold,Southwest,E-commerce,-3974746
+2025-09,Actual,Revenue,Revenue,Southwest,E-commerce,7548180
+2025-09,Actual,COGS,Cost of Goods Sold,Southwest,E-commerce,-4870597
+2025-09,Budget,Revenue,Revenue,Midwest,Stores,15111360
+2025-09,Budget,COGS,Cost of Goods Sold,Midwest,Stores,-9369043
+2025-09,Actual,Revenue,Revenue,Midwest,Stores,14537108
+2025-09,Actual,COGS,Cost of Goods Sold,Midwest,Stores,-9261201
+2025-09,Budget,Revenue,Revenue,Midwest,E-commerce,5876640
+2025-09,Budget,COGS,Cost of Goods Sold,Midwest,E-commerce,-3643517
+2025-09,Actual,Revenue,Revenue,Midwest,E-commerce,7262596
+2025-09,Actual,COGS,Cost of Goods Sold,Midwest,E-commerce,-4665854
+2025-09,Budget,Revenue,Revenue,Northeast,Stores,13737600
+2025-09,Budget,COGS,Cost of Goods Sold,Northeast,Stores,-8517312
+2025-09,Actual,Revenue,Revenue,Northeast,Stores,13074269
+2025-09,Actual,COGS,Cost of Goods Sold,Northeast,Stores,-8355175
+2025-09,Budget,Revenue,Revenue,Northeast,E-commerce,5342400
+2025-09,Budget,COGS,Cost of Goods Sold,Northeast,E-commerce,-3312288
+2025-09,Actual,Revenue,Revenue,Northeast,E-commerce,6367213
+2025-09,Actual,COGS,Cost of Goods Sold,Northeast,E-commerce,-4137837
+2025-10,Budget,Revenue,Revenue,West,Stores,24910848
+2025-10,Budget,COGS,Cost of Goods Sold,West,Stores,-15444726
+2025-10,Actual,Revenue,Revenue,West,Stores,24333196
+2025-10,Actual,COGS,Cost of Goods Sold,West,Stores,-15056213
+2025-10,Budget,Revenue,Revenue,West,E-commerce,9687552
+2025-10,Budget,COGS,Cost of Goods Sold,West,E-commerce,-6006282
+2025-10,Actual,Revenue,Revenue,West,E-commerce,12008681
+2025-10,Actual,COGS,Cost of Goods Sold,West,E-commerce,-7536227
+2025-10,Budget,Revenue,Revenue,Southwest,Stores,17584128
+2025-10,Budget,COGS,Cost of Goods Sold,Southwest,Stores,-10902159
+2025-10,Actual,Revenue,Revenue,Southwest,Stores,17032482
+2025-10,Actual,COGS,Cost of Goods Sold,Southwest,Stores,-10539402
+2025-10,Budget,Revenue,Revenue,Southwest,E-commerce,6838272
+2025-10,Budget,COGS,Cost of Goods Sold,Southwest,E-commerce,-4239729
+2025-10,Actual,Revenue,Revenue,Southwest,E-commerce,8506427
+2025-10,Actual,COGS,Cost of Goods Sold,Southwest,E-commerce,-5344966
+2025-10,Budget,Revenue,Revenue,Midwest,Stores,16118784
+2025-10,Budget,COGS,Cost of Goods Sold,Midwest,Stores,-9993646
+2025-10,Actual,Revenue,Revenue,Midwest,Stores,16660732
+2025-10,Actual,COGS,Cost of Goods Sold,Midwest,Stores,-10467154
+2025-10,Budget,Revenue,Revenue,Midwest,E-commerce,6268416
+2025-10,Budget,COGS,Cost of Goods Sold,Midwest,E-commerce,-3886418
+2025-10,Actual,Revenue,Revenue,Midwest,E-commerce,7440591
+2025-10,Actual,COGS,Cost of Goods Sold,Midwest,E-commerce,-4669986
+2025-10,Budget,Revenue,Revenue,Northeast,Stores,14653440
+2025-10,Budget,COGS,Cost of Goods Sold,Northeast,Stores,-9085133
+2025-10,Actual,Revenue,Revenue,Northeast,Stores,13562563
+2025-10,Actual,COGS,Cost of Goods Sold,Northeast,Stores,-8328718
+2025-10,Budget,Revenue,Revenue,Northeast,E-commerce,5698560
+2025-10,Budget,COGS,Cost of Goods Sold,Northeast,E-commerce,-3533107
+2025-10,Actual,Revenue,Revenue,Northeast,E-commerce,6928856
+2025-10,Actual,COGS,Cost of Goods Sold,Northeast,E-commerce,-4341716
+2025-11,Budget,Revenue,Revenue,West,Stores,32695488
+2025-11,Budget,COGS,Cost of Goods Sold,West,Stores,-20271203
+2025-11,Actual,Revenue,Revenue,West,Stores,32097652
+2025-11,Actual,COGS,Cost of Goods Sold,West,Stores,-19796065
+2025-11,Budget,Revenue,Revenue,West,E-commerce,12714912
+2025-11,Budget,COGS,Cost of Goods Sold,West,E-commerce,-7883245
+2025-11,Actual,Revenue,Revenue,West,E-commerce,15912390
+2025-11,Actual,COGS,Cost of Goods Sold,West,E-commerce,-10009983
+2025-11,Budget,Revenue,Revenue,Southwest,Stores,23079168
+2025-11,Budget,COGS,Cost of Goods Sold,Southwest,Stores,-14309084
+2025-11,Actual,Revenue,Revenue,Southwest,Stores,23949634
+2025-11,Actual,COGS,Cost of Goods Sold,Southwest,Stores,-14822875
+2025-11,Budget,Revenue,Revenue,Southwest,E-commerce,8975232
+2025-11,Budget,COGS,Cost of Goods Sold,Southwest,E-commerce,-5564644
+2025-11,Actual,Revenue,Revenue,Southwest,E-commerce,11047676
+2025-11,Actual,COGS,Cost of Goods Sold,Southwest,E-commerce,-6966555
+2025-11,Budget,Revenue,Revenue,Midwest,Stores,21155904
+2025-11,Budget,COGS,Cost of Goods Sold,Midwest,Stores,-13116660
+2025-11,Actual,Revenue,Revenue,Midwest,Stores,20989470
+2025-11,Actual,COGS,Cost of Goods Sold,Midwest,Stores,-12981283
+2025-11,Budget,Revenue,Revenue,Midwest,E-commerce,8227296
+2025-11,Budget,COGS,Cost of Goods Sold,Midwest,E-commerce,-5100924
+2025-11,Actual,Revenue,Revenue,Midwest,E-commerce,10279042
+2025-11,Actual,COGS,Cost of Goods Sold,Midwest,E-commerce,-6519319
+2025-11,Budget,Revenue,Revenue,Northeast,Stores,19232640
+2025-11,Budget,COGS,Cost of Goods Sold,Northeast,Stores,-11924237
+2025-11,Actual,Revenue,Revenue,Northeast,Stores,18380740
+2025-11,Actual,COGS,Cost of Goods Sold,Northeast,Stores,-11287138
+2025-11,Budget,Revenue,Revenue,Northeast,E-commerce,7479360
+2025-11,Budget,COGS,Cost of Goods Sold,Northeast,E-commerce,-4637203
+2025-11,Actual,Revenue,Revenue,Northeast,E-commerce,8947229
+2025-11,Actual,COGS,Cost of Goods Sold,Northeast,E-commerce,-5666182
+2025-12,Budget,Revenue,Revenue,West,Stores,37366272
+2025-12,Budget,COGS,Cost of Goods Sold,West,Stores,-23167089
+2025-12,Actual,Revenue,Revenue,West,Stores,37494672
+2025-12,Actual,COGS,Cost of Goods Sold,West,Stores,-23120057
+2025-12,Budget,Revenue,Revenue,West,E-commerce,14531328
+2025-12,Budget,COGS,Cost of Goods Sold,West,E-commerce,-9009423
+2025-12,Actual,Revenue,Revenue,West,E-commerce,17925076
+2025-12,Actual,COGS,Cost of Goods Sold,West,E-commerce,-11197511
+2025-12,Budget,Revenue,Revenue,Southwest,Stores,26376192
+2025-12,Budget,COGS,Cost of Goods Sold,Southwest,Stores,-16353239
+2025-12,Actual,Revenue,Revenue,Southwest,Stores,27907655
+2025-12,Actual,COGS,Cost of Goods Sold,Southwest,Stores,-17208773
+2025-12,Budget,Revenue,Revenue,Southwest,E-commerce,10257408
+2025-12,Budget,COGS,Cost of Goods Sold,Southwest,E-commerce,-6359593
+2025-12,Actual,Revenue,Revenue,Southwest,E-commerce,13255505
+2025-12,Actual,COGS,Cost of Goods Sold,Southwest,E-commerce,-8227551
+2025-12,Budget,Revenue,Revenue,Midwest,Stores,24178176
+2025-12,Budget,COGS,Cost of Goods Sold,Midwest,Stores,-14990469
+2025-12,Actual,Revenue,Revenue,Midwest,Stores,24015360
+2025-12,Actual,COGS,Cost of Goods Sold,Midwest,Stores,-15081985
+2025-12,Budget,Revenue,Revenue,Midwest,E-commerce,9402624
+2025-12,Budget,COGS,Cost of Goods Sold,Midwest,E-commerce,-5829627
+2025-12,Actual,Revenue,Revenue,Midwest,E-commerce,12060310
+2025-12,Actual,COGS,Cost of Goods Sold,Midwest,E-commerce,-7620075
+2025-12,Budget,Revenue,Revenue,Northeast,Stores,21980160
+2025-12,Budget,COGS,Cost of Goods Sold,Northeast,Stores,-13627699
+2025-12,Actual,Revenue,Revenue,Northeast,Stores,21020580
+2025-12,Actual,COGS,Cost of Goods Sold,Northeast,Stores,-12922650
+2025-12,Budget,Revenue,Revenue,Northeast,E-commerce,8547840
+2025-12,Budget,COGS,Cost of Goods Sold,Northeast,E-commerce,-5299661
+2025-12,Actual,Revenue,Revenue,Northeast,E-commerce,10118910
+2025-12,Actual,COGS,Cost of Goods Sold,Northeast,E-commerce,-6425574
+2026-01,Budget,Revenue,Revenue,West,Stores,21454468
+2026-01,Budget,COGS,Cost of Goods Sold,West,Stores,-13301770
+2026-01,Actual,Revenue,Revenue,West,Stores,19446312
+2026-01,Actual,COGS,Cost of Goods Sold,West,Stores,-12118485
+2026-01,Budget,Revenue,Revenue,West,E-commerce,8343404
+2026-01,Budget,COGS,Cost of Goods Sold,West,E-commerce,-5172911
+2026-01,Actual,Revenue,Revenue,West,E-commerce,9928291
+2026-01,Actual,COGS,Cost of Goods Sold,West,E-commerce,-6234006
+2026-01,Budget,Revenue,Revenue,Southwest,Stores,15144330
+2026-01,Budget,COGS,Cost of Goods Sold,Southwest,Stores,-9389485
+2026-01,Actual,Revenue,Revenue,Southwest,Stores,14962571
+2026-01,Actual,COGS,Cost of Goods Sold,Southwest,Stores,-9361349
+2026-01,Budget,Revenue,Revenue,Southwest,E-commerce,5889462
+2026-01,Budget,COGS,Cost of Goods Sold,Southwest,E-commerce,-3651466
+2026-01,Actual,Revenue,Revenue,Southwest,E-commerce,6760838
+2026-01,Actual,COGS,Cost of Goods Sold,Southwest,E-commerce,-4257858
+2026-01,Budget,Revenue,Revenue,Midwest,Stores,13882303
+2026-01,Budget,COGS,Cost of Goods Sold,Midwest,Stores,-8607028
+2026-01,Actual,Revenue,Revenue,Midwest,Stores,12953035
+2026-01,Actual,COGS,Cost of Goods Sold,Midwest,Stores,-8007080
+2026-01,Budget,Revenue,Revenue,Midwest,E-commerce,5398673
+2026-01,Budget,COGS,Cost of Goods Sold,Midwest,E-commerce,-3347177
+2026-01,Actual,Revenue,Revenue,Midwest,E-commerce,6465859
+2026-01,Actual,COGS,Cost of Goods Sold,Midwest,E-commerce,-4069916
+2026-01,Budget,Revenue,Revenue,Northeast,Stores,12620275
+2026-01,Budget,COGS,Cost of Goods Sold,Northeast,Stores,-7824571
+2026-01,Actual,Revenue,Revenue,Northeast,Stores,11511803
+2026-01,Actual,COGS,Cost of Goods Sold,Northeast,Stores,-7126763
+2026-01,Budget,Revenue,Revenue,Northeast,E-commerce,4907885
+2026-01,Budget,COGS,Cost of Goods Sold,Northeast,E-commerce,-3042889
+2026-01,Actual,Revenue,Revenue,Northeast,E-commerce,5853230
+2026-01,Actual,COGS,Cost of Goods Sold,Northeast,E-commerce,-3704034
+2026-02,Budget,Revenue,Revenue,West,Stores,19804124
+2026-02,Budget,COGS,Cost of Goods Sold,West,Stores,-12278557
+2026-02,Actual,Revenue,Revenue,West,Stores,18660945
+2026-02,Actual,COGS,Cost of Goods Sold,West,Stores,-11555098
+2026-02,Budget,Revenue,Revenue,West,E-commerce,7701604
+2026-02,Budget,COGS,Cost of Goods Sold,West,E-commerce,-4774994
+2026-02,Actual,Revenue,Revenue,West,E-commerce,9359269
+2026-02,Actual,COGS,Cost of Goods Sold,West,E-commerce,-5911080
+2026-02,Budget,Revenue,Revenue,Southwest,Stores,13979382
+2026-02,Budget,COGS,Cost of Goods Sold,Southwest,Stores,-8667217
+2026-02,Actual,Revenue,Revenue,Southwest,Stores,13952196
+2026-02,Actual,COGS,Cost of Goods Sold,Southwest,Stores,-8665198
+2026-02,Budget,Revenue,Revenue,Southwest,E-commerce,5436426
+2026-02,Budget,COGS,Cost of Goods Sold,Southwest,E-commerce,-3370584
+2026-02,Actual,Revenue,Revenue,Southwest,E-commerce,6690793
+2026-02,Actual,COGS,Cost of Goods Sold,Southwest,E-commerce,-4192999
+2026-02,Budget,Revenue,Revenue,Midwest,Stores,12814433
+2026-02,Budget,COGS,Cost of Goods Sold,Midwest,Stores,-7944949
+2026-02,Actual,Revenue,Revenue,Midwest,Stores,11524837
+2026-02,Actual,COGS,Cost of Goods Sold,Midwest,Stores,-7205166
+2026-02,Budget,Revenue,Revenue,Midwest,E-commerce,4983391
+2026-02,Budget,COGS,Cost of Goods Sold,Midwest,E-commerce,-3089702
+2026-02,Actual,Revenue,Revenue,Midwest,E-commerce,5714374
+2026-02,Actual,COGS,Cost of Goods Sold,Midwest,E-commerce,-3653396
+2026-02,Budget,Revenue,Revenue,Northeast,Stores,11649485
+2026-02,Budget,COGS,Cost of Goods Sold,Northeast,Stores,-7222681
+2026-02,Actual,Revenue,Revenue,Northeast,Stores,10198563
+2026-02,Actual,COGS,Cost of Goods Sold,Northeast,Stores,-6292536
+2026-02,Budget,Revenue,Revenue,Northeast,E-commerce,4530355
+2026-02,Budget,COGS,Cost of Goods Sold,Northeast,E-commerce,-2808820
+2026-02,Actual,Revenue,Revenue,Northeast,E-commerce,5356365
+2026-02,Actual,COGS,Cost of Goods Sold,Northeast,E-commerce,-3370272
+2026-03,Budget,Revenue,Revenue,West,Stores,23764949
+2026-03,Budget,COGS,Cost of Goods Sold,West,Stores,-14734268
+2026-03,Actual,Revenue,Revenue,West,Stores,23163651
+2026-03,Actual,COGS,Cost of Goods Sold,West,Stores,-14238448
+2026-03,Budget,Revenue,Revenue,West,E-commerce,9241925
+2026-03,Budget,COGS,Cost of Goods Sold,West,E-commerce,-5729993
+2026-03,Actual,Revenue,Revenue,West,E-commerce,11115049
+2026-03,Actual,COGS,Cost of Goods Sold,West,E-commerce,-6942300
+2026-03,Budget,Revenue,Revenue,Southwest,Stores,16775258
+2026-03,Budget,COGS,Cost of Goods Sold,Southwest,Stores,-10400660
+2026-03,Actual,Revenue,Revenue,Southwest,Stores,16632852
+2026-03,Actual,COGS,Cost of Goods Sold,Southwest,Stores,-10368082
+2026-03,Budget,Revenue,Revenue,Southwest,E-commerce,6523711
+2026-03,Budget,COGS,Cost of Goods Sold,Southwest,E-commerce,-4044701
+2026-03,Actual,Revenue,Revenue,Southwest,E-commerce,8037426
+2026-03,Actual,COGS,Cost of Goods Sold,Southwest,E-commerce,-5111177
+2026-03,Budget,Revenue,Revenue,Midwest,Stores,15377320
+2026-03,Budget,COGS,Cost of Goods Sold,Midwest,Stores,-9533938
+2026-03,Actual,Revenue,Revenue,Midwest,Stores,14266960
+2026-03,Actual,COGS,Cost of Goods Sold,Midwest,Stores,-8865947
+2026-03,Budget,Revenue,Revenue,Midwest,E-commerce,5980069
+2026-03,Budget,COGS,Cost of Goods Sold,Midwest,E-commerce,-3707643
+2026-03,Actual,Revenue,Revenue,Midwest,E-commerce,7349280
+2026-03,Actual,COGS,Cost of Goods Sold,Midwest,E-commerce,-4579461
+2026-03,Budget,Revenue,Revenue,Northeast,Stores,13979382
+2026-03,Budget,COGS,Cost of Goods Sold,Northeast,Stores,-8667217
+2026-03,Actual,Revenue,Revenue,Northeast,Stores,11957377
+2026-03,Actual,COGS,Cost of Goods Sold,Northeast,Stores,-7394785
+2026-03,Budget,Revenue,Revenue,Northeast,E-commerce,5436426
+2026-03,Budget,COGS,Cost of Goods Sold,Northeast,E-commerce,-3370584
+2026-03,Actual,Revenue,Revenue,Northeast,E-commerce,6379206
+2026-03,Actual,COGS,Cost of Goods Sold,Northeast,E-commerce,-4006787
+2026-04,Budget,Revenue,Revenue,West,Stores,25745361
+2026-04,Budget,COGS,Cost of Goods Sold,West,Stores,-15962124
+2026-04,Actual,Revenue,Revenue,West,Stores,24408744
+2026-04,Actual,COGS,Cost of Goods Sold,West,Stores,-15312181
+2026-04,Budget,Revenue,Revenue,West,E-commerce,10012085
+2026-04,Budget,COGS,Cost of Goods Sold,West,E-commerce,-6207493
+2026-04,Actual,Revenue,Revenue,West,E-commerce,12486670
+2026-04,Actual,COGS,Cost of Goods Sold,West,E-commerce,-7896820
+2026-04,Budget,Revenue,Revenue,Southwest,Stores,18173196
+2026-04,Budget,COGS,Cost of Goods Sold,Southwest,Stores,-11267382
+2026-04,Actual,Revenue,Revenue,Southwest,Stores,17809828
+2026-04,Actual,COGS,Cost of Goods Sold,Southwest,Stores,-11118302
+2026-04,Budget,Revenue,Revenue,Southwest,E-commerce,7067354
+2026-04,Budget,COGS,Cost of Goods Sold,Southwest,E-commerce,-4381760
+2026-04,Actual,Revenue,Revenue,Southwest,E-commerce,8808476
+2026-04,Actual,COGS,Cost of Goods Sold,Southwest,E-commerce,-5534264
+2026-04,Budget,Revenue,Revenue,Midwest,Stores,16658763
+2026-04,Budget,COGS,Cost of Goods Sold,Midwest,Stores,-10328433
+2026-04,Actual,Revenue,Revenue,Midwest,Stores,15770854
+2026-04,Actual,COGS,Cost of Goods Sold,Midwest,Stores,-9757196
+2026-04,Budget,Revenue,Revenue,Midwest,E-commerce,6478408
+2026-04,Budget,COGS,Cost of Goods Sold,Midwest,E-commerce,-4016613
+2026-04,Actual,Revenue,Revenue,Midwest,E-commerce,7967802
+2026-04,Actual,COGS,Cost of Goods Sold,Midwest,E-commerce,-4977624
+2026-04,Budget,Revenue,Revenue,Northeast,Stores,15144330
+2026-04,Budget,COGS,Cost of Goods Sold,Northeast,Stores,-9389485
+2026-04,Actual,Revenue,Revenue,Northeast,Stores,13234062
+2026-04,Actual,COGS,Cost of Goods Sold,Northeast,Stores,-8283298
+2026-04,Budget,Revenue,Revenue,Northeast,E-commerce,5889462
+2026-04,Budget,COGS,Cost of Goods Sold,Northeast,E-commerce,-3651466
+2026-04,Actual,Revenue,Revenue,Northeast,E-commerce,7370032
+2026-04,Actual,COGS,Cost of Goods Sold,Northeast,E-commerce,-4652892
+2026-05,Budget,Revenue,Revenue,West,Stores,28055843
+2026-05,Budget,COGS,Cost of Goods Sold,West,Stores,-17394622
+2026-05,Actual,Revenue,Revenue,West,Stores,27498000
+2026-05,Actual,COGS,Cost of Goods Sold,West,Stores,-17006592
+2026-05,Budget,Revenue,Revenue,West,E-commerce,10910605
+2026-05,Budget,COGS,Cost of Goods Sold,West,E-commerce,-6764575
+2026-05,Actual,Revenue,Revenue,West,E-commerce,13410324
+2026-05,Actual,COGS,Cost of Goods Sold,West,E-commerce,-8429795
+2026-05,Budget,Revenue,Revenue,Southwest,Stores,19804124
+2026-05,Budget,COGS,Cost of Goods Sold,Southwest,Stores,-12278557
+2026-05,Actual,Revenue,Revenue,Southwest,Stores,20714195
+2026-05,Actual,COGS,Cost of Goods Sold,Southwest,Stores,-12670709
+2026-05,Budget,Revenue,Revenue,Southwest,E-commerce,7701604
+2026-05,Budget,COGS,Cost of Goods Sold,Southwest,E-commerce,-4774994
+2026-05,Actual,Revenue,Revenue,Southwest,E-commerce,9904269
+2026-05,Actual,COGS,Cost of Goods Sold,Southwest,E-commerce,-6233343
+2026-05,Budget,Revenue,Revenue,Midwest,Stores,18153780
+2026-05,Budget,COGS,Cost of Goods Sold,Midwest,Stores,-11255344
+2026-05,Actual,Revenue,Revenue,Midwest,Stores,17776226
+2026-05,Actual,COGS,Cost of Goods Sold,Midwest,Stores,-11081391
+2026-05,Budget,Revenue,Revenue,Midwest,E-commerce,7059804
+2026-05,Budget,COGS,Cost of Goods Sold,Midwest,E-commerce,-4377078
+2026-05,Actual,Revenue,Revenue,Midwest,E-commerce,8778301
+2026-05,Actual,COGS,Cost of Goods Sold,Midwest,E-commerce,-5531238
+2026-05,Budget,Revenue,Revenue,Northeast,Stores,16503437
+2026-05,Budget,COGS,Cost of Goods Sold,Northeast,Stores,-10232131
+2026-05,Actual,Revenue,Revenue,Northeast,Stores,14585148
+2026-05,Actual,COGS,Cost of Goods Sold,Northeast,Stores,-9091411
+2026-05,Budget,Revenue,Revenue,Northeast,E-commerce,6418003
+2026-05,Budget,COGS,Cost of Goods Sold,Northeast,E-commerce,-3979162
+2026-05,Actual,Revenue,Revenue,Northeast,E-commerce,7599862
+2026-05,Actual,COGS,Cost of Goods Sold,Northeast,E-commerce,-4850931
+2026-06,Budget,Revenue,Revenue,West,Stores,29706186
+2026-06,Budget,COGS,Cost of Goods Sold,West,Stores,-18417835
+2026-06,Actual,Revenue,Revenue,West,Stores,27602851
+2026-06,Actual,COGS,Cost of Goods Sold,West,Stores,-17164411
+2026-06,Budget,Revenue,Revenue,West,E-commerce,11552406
+2026-06,Budget,COGS,Cost of Goods Sold,West,E-commerce,-7162492
+2026-06,Actual,Revenue,Revenue,West,E-commerce,14307117
+2026-06,Actual,COGS,Cost of Goods Sold,West,E-commerce,-8902619
+2026-06,Budget,Revenue,Revenue,Southwest,Stores,20969073
+2026-06,Budget,COGS,Cost of Goods Sold,Southwest,Stores,-13000825
+2026-06,Actual,Revenue,Revenue,Southwest,Stores,21578444
+2026-06,Actual,COGS,Cost of Goods Sold,Southwest,Stores,-13461677
+2026-06,Budget,Revenue,Revenue,Southwest,E-commerce,8154639
+2026-06,Budget,COGS,Cost of Goods Sold,Southwest,E-commerce,-5055876
+2026-06,Actual,Revenue,Revenue,Southwest,E-commerce,10698784
+2026-06,Actual,COGS,Cost of Goods Sold,Southwest,E-commerce,-6757655
+2026-06,Budget,Revenue,Revenue,Midwest,Stores,19221650
+2026-06,Budget,COGS,Cost of Goods Sold,Midwest,Stores,-11917423
+2026-06,Actual,Revenue,Revenue,Midwest,Stores,18243315
+2026-06,Actual,COGS,Cost of Goods Sold,Midwest,Stores,-11297332
+2026-06,Budget,Revenue,Revenue,Midwest,E-commerce,7475086
+2026-06,Budget,COGS,Cost of Goods Sold,Midwest,E-commerce,-4634553
+2026-06,Actual,Revenue,Revenue,Midwest,E-commerce,9470262
+2026-06,Actual,COGS,Cost of Goods Sold,Midwest,E-commerce,-5979116
+2026-06,Budget,Revenue,Revenue,Northeast,Stores,17474227
+2026-06,Budget,COGS,Cost of Goods Sold,Northeast,Stores,-10834021
+2026-06,Actual,Revenue,Revenue,Northeast,Stores,15649478
+2026-06,Actual,COGS,Cost of Goods Sold,Northeast,Stores,-9774159
+2026-06,Budget,Revenue,Revenue,Northeast,E-commerce,6795533
+2026-06,Budget,COGS,Cost of Goods Sold,Northeast,E-commerce,-4213230
+2026-06,Actual,Revenue,Revenue,Northeast,E-commerce,8479438
+2026-06,Actual,COGS,Cost of Goods Sold,Northeast,E-commerce,-5253938
+2026-07,Budget,Revenue,Revenue,West,Stores,29046049
+2026-07,Budget,COGS,Cost of Goods Sold,West,Stores,-18008550
+2026-07,Actual,Revenue,Revenue,West,Stores,27988764
+2026-07,Actual,COGS,Cost of Goods Sold,West,Stores,-17192578
+2026-07,Budget,Revenue,Revenue,West,E-commerce,11295686
+2026-07,Budget,COGS,Cost of Goods Sold,West,E-commerce,-7003325
+2026-07,Actual,Revenue,Revenue,West,E-commerce,14290190
+2026-07,Actual,COGS,Cost of Goods Sold,West,E-commerce,-8969622
+2026-07,Budget,Revenue,Revenue,Southwest,Stores,20503093
+2026-07,Budget,COGS,Cost of Goods Sold,Southwest,Stores,-12711918
+2026-07,Actual,Revenue,Revenue,Southwest,Stores,20585620
+2026-07,Actual,COGS,Cost of Goods Sold,Southwest,Stores,-12777116
+2026-07,Budget,Revenue,Revenue,Southwest,E-commerce,7973425
+2026-07,Budget,COGS,Cost of Goods Sold,Southwest,E-commerce,-4943524
+2026-07,Actual,Revenue,Revenue,Southwest,E-commerce,10302703
+2026-07,Actual,COGS,Cost of Goods Sold,Southwest,E-commerce,-6472970
+2026-07,Budget,Revenue,Revenue,Midwest,Stores,18794502
+2026-07,Budget,COGS,Cost of Goods Sold,Midwest,Stores,-11652591
+2026-07,Actual,Revenue,Revenue,Midwest,Stores,17626532
+2026-07,Actual,COGS,Cost of Goods Sold,Midwest,Stores,-10881522
+2026-07,Budget,Revenue,Revenue,Midwest,E-commerce,7308973
+2026-07,Budget,COGS,Cost of Goods Sold,Midwest,E-commerce,-4531563
+2026-07,Actual,Revenue,Revenue,Midwest,E-commerce,9475793
+2026-07,Actual,COGS,Cost of Goods Sold,Midwest,E-commerce,-5955857
+2026-07,Budget,Revenue,Revenue,Northeast,Stores,17085911
+2026-07,Budget,COGS,Cost of Goods Sold,Northeast,Stores,-10593265
+2026-07,Actual,Revenue,Revenue,Northeast,Stores,14722512
+2026-07,Actual,COGS,Cost of Goods Sold,Northeast,Stores,-9101223
+2026-07,Budget,Revenue,Revenue,Northeast,E-commerce,6644521
+2026-07,Budget,COGS,Cost of Goods Sold,Northeast,E-commerce,-4119603
+2026-07,Actual,Revenue,Revenue,Northeast,E-commerce,8322085
+2026-07,Actual,COGS,Cost of Goods Sold,Northeast,E-commerce,-5211771
+2026-08,Budget,Revenue,Revenue,West,Stores,27065636
+2026-08,Budget,COGS,Cost of Goods Sold,West,Stores,-16780695
+2026-08,Actual,Revenue,Revenue,West,Stores,24809357
+2026-08,Actual,COGS,Cost of Goods Sold,West,Stores,-15415106
+2026-08,Budget,Revenue,Revenue,West,E-commerce,10525525
+2026-08,Budget,COGS,Cost of Goods Sold,West,E-commerce,-6525826
+2026-08,Actual,Revenue,Revenue,West,E-commerce,12772132
+2026-08,Actual,COGS,Cost of Goods Sold,West,E-commerce,-8122824
+2026-08,Budget,Revenue,Revenue,Southwest,Stores,19105155
+2026-08,Budget,COGS,Cost of Goods Sold,Southwest,Stores,-11845196
+2026-08,Actual,Revenue,Revenue,Southwest,Stores,19945226
+2026-08,Actual,COGS,Cost of Goods Sold,Southwest,Stores,-12294621
+2026-08,Budget,Revenue,Revenue,Southwest,E-commerce,7429783
+2026-08,Budget,COGS,Cost of Goods Sold,Southwest,E-commerce,-4606465
+2026-08,Actual,Revenue,Revenue,Southwest,E-commerce,9741558
+2026-08,Actual,COGS,Cost of Goods Sold,Southwest,E-commerce,-6195728
+2026-08,Budget,Revenue,Revenue,Midwest,Stores,17513059
+2026-08,Budget,COGS,Cost of Goods Sold,Midwest,Stores,-10858096
+2026-08,Actual,Revenue,Revenue,Midwest,Stores,15576540
+2026-08,Actual,COGS,Cost of Goods Sold,Midwest,Stores,-9691318
+2026-08,Budget,Revenue,Revenue,Midwest,E-commerce,6810634
+2026-08,Budget,COGS,Cost of Goods Sold,Midwest,E-commerce,-4222593
+2026-08,Actual,Revenue,Revenue,Midwest,E-commerce,9223452
+2026-08,Actual,COGS,Cost of Goods Sold,Midwest,E-commerce,-5794730
+2026-08,Budget,Revenue,Revenue,Northeast,Stores,15920963
+2026-08,Budget,COGS,Cost of Goods Sold,Northeast,Stores,-9870997
+2026-08,Actual,Revenue,Revenue,Northeast,Stores,13554217
+2026-08,Actual,COGS,Cost of Goods Sold,Northeast,Stores,-8378400
+2026-08,Budget,Revenue,Revenue,Northeast,E-commerce,6191485
+2026-08,Budget,COGS,Cost of Goods Sold,Northeast,E-commerce,-3838721
+2026-08,Actual,Revenue,Revenue,Northeast,E-commerce,7597985
+2026-08,Actual,COGS,Cost of Goods Sold,Northeast,E-commerce,-4795767
+2026-09,Budget,Revenue,Revenue,West,Stores,24755155
+2026-09,Budget,COGS,Cost of Goods Sold,West,Stores,-15348196
+2026-09,Actual,Revenue,Revenue,West,Stores,23898203
+2026-09,Actual,COGS,Cost of Goods Sold,West,Stores,-14825116
+2026-09,Budget,Revenue,Revenue,West,E-commerce,9627005
+2026-09,Budget,COGS,Cost of Goods Sold,West,E-commerce,-5968743
+2026-09,Actual,Revenue,Revenue,West,E-commerce,12683604
+2026-09,Actual,COGS,Cost of Goods Sold,West,E-commerce,-7973185
+2026-09,Budget,Revenue,Revenue,Southwest,Stores,17474227
+2026-09,Budget,COGS,Cost of Goods Sold,Southwest,Stores,-10834021
+2026-09,Actual,Revenue,Revenue,Southwest,Stores,18008907
+2026-09,Actual,COGS,Cost of Goods Sold,Southwest,Stores,-11215110
+2026-09,Budget,Revenue,Revenue,Southwest,E-commerce,6795533
+2026-09,Budget,COGS,Cost of Goods Sold,Southwest,E-commerce,-4213230
+2026-09,Actual,Revenue,Revenue,Southwest,E-commerce,9398983
+2026-09,Actual,COGS,Cost of Goods Sold,Southwest,E-commerce,-5860118
+2026-09,Budget,Revenue,Revenue,Midwest,Stores,16018042
+2026-09,Budget,COGS,Cost of Goods Sold,Midwest,Stores,-9931186
+2026-09,Actual,Revenue,Revenue,Midwest,Stores,15051063
+2026-09,Actual,COGS,Cost of Goods Sold,Midwest,Stores,-9385102
+2026-09,Budget,Revenue,Revenue,Midwest,E-commerce,6229238
+2026-09,Budget,COGS,Cost of Goods Sold,Midwest,E-commerce,-3862128
+2026-09,Actual,Revenue,Revenue,Midwest,E-commerce,8316686
+2026-09,Actual,COGS,Cost of Goods Sold,Midwest,E-commerce,-5245878
+2026-09,Budget,Revenue,Revenue,Northeast,Stores,14561856
+2026-09,Budget,COGS,Cost of Goods Sold,Northeast,Stores,-9028351
+2026-09,Actual,Revenue,Revenue,Northeast,Stores,12947363
+2026-09,Actual,COGS,Cost of Goods Sold,Northeast,Stores,-8050284
+2026-09,Budget,Revenue,Revenue,Northeast,E-commerce,5662944
+2026-09,Budget,COGS,Cost of Goods Sold,Northeast,E-commerce,-3511025
+2026-09,Actual,Revenue,Revenue,Northeast,E-commerce,7582438
+2026-09,Actual,COGS,Cost of Goods Sold,Northeast,E-commerce,-4772948
+2026-10,Budget,Revenue,Revenue,West,Stores,26405499
+2026-10,Budget,COGS,Cost of Goods Sold,West,Stores,-16371409
+2026-10,Budget,Revenue,Revenue,West,E-commerce,10268805
+2026-10,Budget,COGS,Cost of Goods Sold,West,E-commerce,-6366659
+2026-10,Budget,Revenue,Revenue,Southwest,Stores,18639176
+2026-10,Budget,COGS,Cost of Goods Sold,Southwest,Stores,-11556289
+2026-10,Budget,Revenue,Revenue,Southwest,E-commerce,7248568
+2026-10,Budget,COGS,Cost of Goods Sold,Southwest,E-commerce,-4494112
+2026-10,Budget,Revenue,Revenue,Midwest,Stores,17085911
+2026-10,Budget,COGS,Cost of Goods Sold,Midwest,Stores,-10593265
+2026-10,Budget,Revenue,Revenue,Midwest,E-commerce,6644521
+2026-10,Budget,COGS,Cost of Goods Sold,Midwest,E-commerce,-4119603
+2026-10,Budget,Revenue,Revenue,Northeast,Stores,15532646
+2026-10,Budget,COGS,Cost of Goods Sold,Northeast,Stores,-9630241
+2026-10,Budget,Revenue,Revenue,Northeast,E-commerce,6040474
+2026-10,Budget,COGS,Cost of Goods Sold,Northeast,E-commerce,-3745094
+2026-11,Budget,Revenue,Revenue,West,Stores,34657217
+2026-11,Budget,COGS,Cost of Goods Sold,West,Stores,-21487475
+2026-11,Budget,Revenue,Revenue,West,E-commerce,13477807
+2026-11,Budget,COGS,Cost of Goods Sold,West,E-commerce,-8356240
+2026-11,Budget,Revenue,Revenue,Southwest,Stores,24463918
+2026-11,Budget,COGS,Cost of Goods Sold,Southwest,Stores,-15167629
+2026-11,Budget,Revenue,Revenue,Southwest,E-commerce,9513746
+2026-11,Budget,COGS,Cost of Goods Sold,Southwest,E-commerce,-5898522
+2026-11,Budget,Revenue,Revenue,Midwest,Stores,22425258
+2026-11,Budget,COGS,Cost of Goods Sold,Midwest,Stores,-13903660
+2026-11,Budget,Revenue,Revenue,Midwest,E-commerce,8720934
+2026-11,Budget,COGS,Cost of Goods Sold,Midwest,E-commerce,-5406979
+2026-11,Budget,Revenue,Revenue,Northeast,Stores,20386598
+2026-11,Budget,COGS,Cost of Goods Sold,Northeast,Stores,-12639691
+2026-11,Budget,Revenue,Revenue,Northeast,E-commerce,7928122
+2026-11,Budget,COGS,Cost of Goods Sold,Northeast,E-commerce,-4915435
+2026-12,Budget,Revenue,Revenue,West,Stores,39608248
+2026-12,Budget,COGS,Cost of Goods Sold,West,Stores,-24557114
+2026-12,Budget,Revenue,Revenue,West,E-commerce,15403208
+2026-12,Budget,COGS,Cost of Goods Sold,West,E-commerce,-9549989
+2026-12,Budget,Revenue,Revenue,Southwest,Stores,27958764
+2026-12,Budget,COGS,Cost of Goods Sold,Southwest,Stores,-17334433
+2026-12,Budget,Revenue,Revenue,Southwest,E-commerce,10872852
+2026-12,Budget,COGS,Cost of Goods Sold,Southwest,E-commerce,-6741169
+2026-12,Budget,Revenue,Revenue,Midwest,Stores,25628867
+2026-12,Budget,COGS,Cost of Goods Sold,Midwest,Stores,-15889897
+2026-12,Budget,Revenue,Revenue,Midwest,E-commerce,9966781
+2026-12,Budget,COGS,Cost of Goods Sold,Midwest,E-commerce,-6179404
+2026-12,Budget,Revenue,Revenue,Northeast,Stores,23298970
+2026-12,Budget,COGS,Cost of Goods Sold,Northeast,Stores,-14445361
+2026-12,Budget,Revenue,Revenue,Northeast,E-commerce,9060710
+2026-12,Budget,COGS,Cost of Goods Sold,Northeast,E-commerce,-5617640
+2024-01,Budget,Opex,Store Operations,Corporate,All,-12768000
+2024-01,Actual,Opex,Store Operations,Corporate,All,-12823479
+2024-01,Budget,Opex,Marketing,Corporate,All,-3708000
+2024-01,Actual,Opex,Marketing,Corporate,All,-3817139
+2024-01,Budget,Opex,Supply Chain & Logistics,Corporate,All,-4230000
+2024-01,Actual,Opex,Supply Chain & Logistics,Corporate,All,-4192936
+2024-01,Budget,Opex,Technology,Corporate,All,-2417500
+2024-01,Actual,Opex,Technology,Corporate,All,-2371313
+2024-01,Budget,Opex,General & Administrative,Corporate,All,-3912000
+2024-01,Actual,Opex,General & Administrative,Corporate,All,-3876168
+2024-02,Budget,Opex,Store Operations,Corporate,All,-12432000
+2024-02,Actual,Opex,Store Operations,Corporate,All,-12604438
+2024-02,Budget,Opex,Marketing,Corporate,All,-3492000
+2024-02,Actual,Opex,Marketing,Corporate,All,-3419657
+2024-02,Budget,Opex,Supply Chain & Logistics,Corporate,All,-4020000
+2024-02,Actual,Opex,Supply Chain & Logistics,Corporate,All,-4108871
+2024-02,Budget,Opex,Technology,Corporate,All,-2395000
+2024-02,Actual,Opex,Technology,Corporate,All,-2373130
+2024-02,Budget,Opex,General & Administrative,Corporate,All,-3888000
+2024-02,Actual,Opex,General & Administrative,Corporate,All,-3981596
+2024-03,Budget,Opex,Store Operations,Corporate,All,-13238400
+2024-03,Actual,Opex,Store Operations,Corporate,All,-12654790
+2024-03,Budget,Opex,Marketing,Corporate,All,-4010400
+2024-03,Actual,Opex,Marketing,Corporate,All,-3980748
+2024-03,Budget,Opex,Supply Chain & Logistics,Corporate,All,-4524000
+2024-03,Actual,Opex,Supply Chain & Logistics,Corporate,All,-4403322
+2024-03,Budget,Opex,Technology,Corporate,All,-2449000
+2024-03,Actual,Opex,Technology,Corporate,All,-2412011
+2024-03,Budget,Opex,General & Administrative,Corporate,All,-3945600
+2024-03,Actual,Opex,General & Administrative,Corporate,All,-3968937
+2024-04,Budget,Opex,Store Operations,Corporate,All,-13641600
+2024-04,Actual,Opex,Store Operations,Corporate,All,-13622966
+2024-04,Budget,Opex,Marketing,Corporate,All,-4269600
+2024-04,Actual,Opex,Marketing,Corporate,All,-4267390
+2024-04,Budget,Opex,Supply Chain & Logistics,Corporate,All,-4776000
+2024-04,Actual,Opex,Supply Chain & Logistics,Corporate,All,-4779718
+2024-04,Budget,Opex,Technology,Corporate,All,-2476000
+2024-04,Actual,Opex,Technology,Corporate,All,-2488114
+2024-04,Budget,Opex,General & Administrative,Corporate,All,-3974400
+2024-04,Actual,Opex,General & Administrative,Corporate,All,-3896359
+2024-05,Budget,Opex,Store Operations,Corporate,All,-14112000
+2024-05,Actual,Opex,Store Operations,Corporate,All,-14444517
+2024-05,Budget,Opex,Marketing,Corporate,All,-4572000
+2024-05,Actual,Opex,Marketing,Corporate,All,-4718030
+2024-05,Budget,Opex,Supply Chain & Logistics,Corporate,All,-5070000
+2024-05,Actual,Opex,Supply Chain & Logistics,Corporate,All,-5191650
+2024-05,Budget,Opex,Technology,Corporate,All,-2507500
+2024-05,Actual,Opex,Technology,Corporate,All,-2544291
+2024-05,Budget,Opex,General & Administrative,Corporate,All,-4008000
+2024-05,Actual,Opex,General & Administrative,Corporate,All,-4041185
+2024-06,Budget,Opex,Store Operations,Corporate,All,-14448000
+2024-06,Actual,Opex,Store Operations,Corporate,All,-15177045
+2024-06,Budget,Opex,Marketing,Corporate,All,-4788000
+2024-06,Actual,Opex,Marketing,Corporate,All,-4866600
+2024-06,Budget,Opex,Supply Chain & Logistics,Corporate,All,-5280000
+2024-06,Actual,Opex,Supply Chain & Logistics,Corporate,All,-5331725
+2024-06,Budget,Opex,Technology,Corporate,All,-2530000
+2024-06,Actual,Opex,Technology,Corporate,All,-2500807
+2024-06,Budget,Opex,General & Administrative,Corporate,All,-4032000
+2024-06,Actual,Opex,General & Administrative,Corporate,All,-3958235
+2024-07,Budget,Opex,Store Operations,Corporate,All,-14313600
+2024-07,Actual,Opex,Store Operations,Corporate,All,-14085299
+2024-07,Budget,Opex,Marketing,Corporate,All,-4701600
+2024-07,Actual,Opex,Marketing,Corporate,All,-4700882
+2024-07,Budget,Opex,Supply Chain & Logistics,Corporate,All,-5196000
+2024-07,Actual,Opex,Supply Chain & Logistics,Corporate,All,-5270553
+2024-07,Budget,Opex,Technology,Corporate,All,-2521000
+2024-07,Actual,Opex,Technology,Corporate,All,-2546701
+2024-07,Budget,Opex,General & Administrative,Corporate,All,-4022400
+2024-07,Actual,Opex,General & Administrative,Corporate,All,-4035897
+2024-08,Budget,Opex,Store Operations,Corporate,All,-13910400
+2024-08,Actual,Opex,Store Operations,Corporate,All,-13920010
+2024-08,Budget,Opex,Marketing,Corporate,All,-4442400
+2024-08,Actual,Opex,Marketing,Corporate,All,-4670313
+2024-08,Budget,Opex,Supply Chain & Logistics,Corporate,All,-4944000
+2024-08,Actual,Opex,Supply Chain & Logistics,Corporate,All,-5160483
+2024-08,Budget,Opex,Technology,Corporate,All,-2494000
+2024-08,Actual,Opex,Technology,Corporate,All,-2501126
+2024-08,Budget,Opex,General & Administrative,Corporate,All,-3993600
+2024-08,Actual,Opex,General & Administrative,Corporate,All,-3957386
+2024-09,Budget,Opex,Store Operations,Corporate,All,-13440000
+2024-09,Actual,Opex,Store Operations,Corporate,All,-13805316
+2024-09,Budget,Opex,Marketing,Corporate,All,-4140000
+2024-09,Actual,Opex,Marketing,Corporate,All,-4294643
+2024-09,Budget,Opex,Supply Chain & Logistics,Corporate,All,-4650000
+2024-09,Actual,Opex,Supply Chain & Logistics,Corporate,All,-4646132
+2024-09,Budget,Opex,Technology,Corporate,All,-2462500
+2024-09,Actual,Opex,Technology,Corporate,All,-2473565
+2024-09,Budget,Opex,General & Administrative,Corporate,All,-3960000
+2024-09,Actual,Opex,General & Administrative,Corporate,All,-3996229
+2024-10,Budget,Opex,Store Operations,Corporate,All,-13776000
+2024-10,Actual,Opex,Store Operations,Corporate,All,-13745752
+2024-10,Budget,Opex,Marketing,Corporate,All,-4356000
+2024-10,Actual,Opex,Marketing,Corporate,All,-4515553
+2024-10,Budget,Opex,Supply Chain & Logistics,Corporate,All,-4860000
+2024-10,Actual,Opex,Supply Chain & Logistics,Corporate,All,-4853076
+2024-10,Budget,Opex,Technology,Corporate,All,-2485000
+2024-10,Actual,Opex,Technology,Corporate,All,-2566646
+2024-10,Budget,Opex,General & Administrative,Corporate,All,-3984000
+2024-10,Actual,Opex,General & Administrative,Corporate,All,-4099662
+2024-11,Budget,Opex,Store Operations,Corporate,All,-15456000
+2024-11,Actual,Opex,Store Operations,Corporate,All,-15772711
+2024-11,Budget,Opex,Marketing,Corporate,All,-5436000
+2024-11,Actual,Opex,Marketing,Corporate,All,-5732437
+2024-11,Budget,Opex,Supply Chain & Logistics,Corporate,All,-5910000
+2024-11,Actual,Opex,Supply Chain & Logistics,Corporate,All,-5861178
+2024-11,Budget,Opex,Technology,Corporate,All,-2597500
+2024-11,Actual,Opex,Technology,Corporate,All,-2563383
+2024-11,Budget,Opex,General & Administrative,Corporate,All,-4104000
+2024-11,Actual,Opex,General & Administrative,Corporate,All,-4108061
+2024-12,Budget,Opex,Store Operations,Corporate,All,-16464000
+2024-12,Actual,Opex,Store Operations,Corporate,All,-16717638
+2024-12,Budget,Opex,Marketing,Corporate,All,-6084000
+2024-12,Actual,Opex,Marketing,Corporate,All,-6575170
+2024-12,Budget,Opex,Supply Chain & Logistics,Corporate,All,-6540000
+2024-12,Actual,Opex,Supply Chain & Logistics,Corporate,All,-7204202
+2024-12,Budget,Opex,Technology,Corporate,All,-2665000
+2024-12,Actual,Opex,Technology,Corporate,All,-2642825
+2024-12,Budget,Opex,General & Administrative,Corporate,All,-4176000
+2024-12,Actual,Opex,General & Administrative,Corporate,All,-4149596
+2025-01,Budget,Opex,Store Operations,Corporate,All,-13534080
+2025-01,Actual,Opex,Store Operations,Corporate,All,-13590967
+2025-01,Budget,Opex,Marketing,Corporate,All,-3930480
+2025-01,Actual,Opex,Marketing,Corporate,All,-4052608
+2025-01,Budget,Opex,Supply Chain & Logistics,Corporate,All,-4483800
+2025-01,Actual,Opex,Supply Chain & Logistics,Corporate,All,-4370028
+2025-01,Budget,Opex,Technology,Corporate,All,-2562550
+2025-01,Actual,Opex,Technology,Corporate,All,-2574855
+2025-01,Budget,Opex,General & Administrative,Corporate,All,-4146720
+2025-01,Actual,Opex,General & Administrative,Corporate,All,-4297264
+2025-02,Budget,Opex,Store Operations,Corporate,All,-13177920
+2025-02,Actual,Opex,Store Operations,Corporate,All,-12790480
+2025-02,Budget,Opex,Marketing,Corporate,All,-3701520
+2025-02,Actual,Opex,Marketing,Corporate,All,-3637707
+2025-02,Budget,Opex,Supply Chain & Logistics,Corporate,All,-4261200
+2025-02,Actual,Opex,Supply Chain & Logistics,Corporate,All,-4255793
+2025-02,Budget,Opex,Technology,Corporate,All,-2538700
+2025-02,Actual,Opex,Technology,Corporate,All,-2515550
+2025-02,Budget,Opex,General & Administrative,Corporate,All,-4121280
+2025-02,Actual,Opex,General & Administrative,Corporate,All,-4191855
+2025-03,Budget,Opex,Store Operations,Corporate,All,-14032704
+2025-03,Actual,Opex,Store Operations,Corporate,All,-14156475
+2025-03,Budget,Opex,Marketing,Corporate,All,-4251024
+2025-03,Actual,Opex,Marketing,Corporate,All,-4134639
+2025-03,Budget,Opex,Supply Chain & Logistics,Corporate,All,-4795440
+2025-03,Actual,Opex,Supply Chain & Logistics,Corporate,All,-4880031
+2025-03,Budget,Opex,Technology,Corporate,All,-2595940
+2025-03,Actual,Opex,Technology,Corporate,All,-2569640
+2025-03,Budget,Opex,General & Administrative,Corporate,All,-4182336
+2025-03,Actual,Opex,General & Administrative,Corporate,All,-4293018
+2025-04,Budget,Opex,Store Operations,Corporate,All,-14460096
+2025-04,Actual,Opex,Store Operations,Corporate,All,-14490550
+2025-04,Budget,Opex,Marketing,Corporate,All,-4525776
+2025-04,Actual,Opex,Marketing,Corporate,All,-5893611
+2025-04,Budget,Opex,Supply Chain & Logistics,Corporate,All,-5062560
+2025-04,Actual,Opex,Supply Chain & Logistics,Corporate,All,-5252957
+2025-04,Budget,Opex,Technology,Corporate,All,-2624560
+2025-04,Actual,Opex,Technology,Corporate,All,-2679200
+2025-04,Budget,Opex,General & Administrative,Corporate,All,-4212864
+2025-04,Actual,Opex,General & Administrative,Corporate,All,-4266089
+2025-05,Budget,Opex,Store Operations,Corporate,All,-14958720
+2025-05,Actual,Opex,Store Operations,Corporate,All,-14652194
+2025-05,Budget,Opex,Marketing,Corporate,All,-4846320
+2025-05,Actual,Opex,Marketing,Corporate,All,-6440261
+2025-05,Budget,Opex,Supply Chain & Logistics,Corporate,All,-5374200
+2025-05,Actual,Opex,Supply Chain & Logistics,Corporate,All,-5388296
+2025-05,Budget,Opex,Technology,Corporate,All,-2657950
+2025-05,Actual,Opex,Technology,Corporate,All,-2684227
+2025-05,Budget,Opex,General & Administrative,Corporate,All,-4248480
+2025-05,Actual,Opex,General & Administrative,Corporate,All,-4141708
+2025-06,Budget,Opex,Store Operations,Corporate,All,-15314880
+2025-06,Actual,Opex,Store Operations,Corporate,All,-15707972
+2025-06,Budget,Opex,Marketing,Corporate,All,-5075280
+2025-06,Actual,Opex,Marketing,Corporate,All,-6597287
+2025-06,Budget,Opex,Supply Chain & Logistics,Corporate,All,-5596800
+2025-06,Actual,Opex,Supply Chain & Logistics,Corporate,All,-5607975
+2025-06,Budget,Opex,Technology,Corporate,All,-2681800
+2025-06,Actual,Opex,Technology,Corporate,All,-2737346
+2025-06,Budget,Opex,General & Administrative,Corporate,All,-4273920
+2025-06,Actual,Opex,General & Administrative,Corporate,All,-4312814
+2025-07,Budget,Opex,Store Operations,Corporate,All,-15172416
+2025-07,Actual,Opex,Store Operations,Corporate,All,-15300481
+2025-07,Budget,Opex,Marketing,Corporate,All,-4983696
+2025-07,Actual,Opex,Marketing,Corporate,All,-5338890
+2025-07,Budget,Opex,Supply Chain & Logistics,Corporate,All,-5507760
+2025-07,Actual,Opex,Supply Chain & Logistics,Corporate,All,-6504853
+2025-07,Budget,Opex,Technology,Corporate,All,-2672260
+2025-07,Actual,Opex,Technology,Corporate,All,-2695303
+2025-07,Budget,Opex,General & Administrative,Corporate,All,-4263744
+2025-07,Actual,Opex,General & Administrative,Corporate,All,-4309532
+2025-08,Budget,Opex,Store Operations,Corporate,All,-14745024
+2025-08,Actual,Opex,Store Operations,Corporate,All,-14911446
+2025-08,Budget,Opex,Marketing,Corporate,All,-4708944
+2025-08,Actual,Opex,Marketing,Corporate,All,-4982735
+2025-08,Budget,Opex,Supply Chain & Logistics,Corporate,All,-5240640
+2025-08,Actual,Opex,Supply Chain & Logistics,Corporate,All,-6213835
+2025-08,Budget,Opex,Technology,Corporate,All,-2643640
+2025-08,Actual,Opex,Technology,Corporate,All,-2645355
+2025-08,Budget,Opex,General & Administrative,Corporate,All,-4233216
+2025-08,Actual,Opex,General & Administrative,Corporate,All,-4374525
+2025-09,Budget,Opex,Store Operations,Corporate,All,-14246400
+2025-09,Actual,Opex,Store Operations,Corporate,All,-14265537
+2025-09,Budget,Opex,Marketing,Corporate,All,-4388400
+2025-09,Actual,Opex,Marketing,Corporate,All,-4373853
+2025-09,Budget,Opex,Supply Chain & Logistics,Corporate,All,-4929000
+2025-09,Actual,Opex,Supply Chain & Logistics,Corporate,All,-6090122
+2025-09,Budget,Opex,Technology,Corporate,All,-2610250
+2025-09,Actual,Opex,Technology,Corporate,All,-2766023
+2025-09,Budget,Opex,General & Administrative,Corporate,All,-4197600
+2025-09,Actual,Opex,General & Administrative,Corporate,All,-4186414
+2025-10,Budget,Opex,Store Operations,Corporate,All,-14602560
+2025-10,Actual,Opex,Store Operations,Corporate,All,-14290637
+2025-10,Budget,Opex,Marketing,Corporate,All,-4617360
+2025-10,Actual,Opex,Marketing,Corporate,All,-4757321
+2025-10,Budget,Opex,Supply Chain & Logistics,Corporate,All,-5151600
+2025-10,Actual,Opex,Supply Chain & Logistics,Corporate,All,-5286139
+2025-10,Budget,Opex,Technology,Corporate,All,-2634100
+2025-10,Actual,Opex,Technology,Corporate,All,-2641703
+2025-10,Budget,Opex,General & Administrative,Corporate,All,-4223040
+2025-10,Actual,Opex,General & Administrative,Corporate,All,-4147437
+2025-11,Budget,Opex,Store Operations,Corporate,All,-16383360
+2025-11,Actual,Opex,Store Operations,Corporate,All,-17028939
+2025-11,Budget,Opex,Marketing,Corporate,All,-5762160
+2025-11,Actual,Opex,Marketing,Corporate,All,-6115222
+2025-11,Budget,Opex,Supply Chain & Logistics,Corporate,All,-6264600
+2025-11,Actual,Opex,Supply Chain & Logistics,Corporate,All,-6350483
+2025-11,Budget,Opex,Technology,Corporate,All,-2753350
+2025-11,Actual,Opex,Technology,Corporate,All,-2822439
+2025-11,Budget,Opex,General & Administrative,Corporate,All,-4350240
+2025-11,Actual,Opex,General & Administrative,Corporate,All,-4562330
+2025-12,Budget,Opex,Store Operations,Corporate,All,-17451840
+2025-12,Actual,Opex,Store Operations,Corporate,All,-18138861
+2025-12,Budget,Opex,Marketing,Corporate,All,-6449040
+2025-12,Actual,Opex,Marketing,Corporate,All,-6804512
+2025-12,Budget,Opex,Supply Chain & Logistics,Corporate,All,-6932400
+2025-12,Actual,Opex,Supply Chain & Logistics,Corporate,All,-7302135
+2025-12,Budget,Opex,Technology,Corporate,All,-2824900
+2025-12,Actual,Opex,Technology,Corporate,All,-2902018
+2025-12,Budget,Opex,General & Administrative,Corporate,All,-4426560
+2025-12,Actual,Opex,General & Administrative,Corporate,All,-4316429
+2026-01,Budget,Opex,Store Operations,Corporate,All,-14346125
+2026-01,Actual,Opex,Store Operations,Corporate,All,-14406840
+2026-01,Budget,Opex,Marketing,Corporate,All,-4166309
+2026-01,Actual,Opex,Marketing,Corporate,All,-4142386
+2026-01,Budget,Opex,Supply Chain & Logistics,Corporate,All,-4752828
+2026-01,Actual,Opex,Supply Chain & Logistics,Corporate,All,-4937228
+2026-01,Budget,Opex,Technology,Corporate,All,-2716303
+2026-01,Actual,Opex,Technology,Corporate,All,-2382813
+2026-01,Budget,Opex,General & Administrative,Corporate,All,-4395523
+2026-01,Actual,Opex,General & Administrative,Corporate,All,-4543145
+2026-02,Budget,Opex,Store Operations,Corporate,All,-13968595
+2026-02,Actual,Opex,Store Operations,Corporate,All,-13690807
+2026-02,Budget,Opex,Marketing,Corporate,All,-3923611
+2026-02,Actual,Opex,Marketing,Corporate,All,-3990024
+2026-02,Budget,Opex,Supply Chain & Logistics,Corporate,All,-4516872
+2026-02,Actual,Opex,Supply Chain & Logistics,Corporate,All,-4565386
+2026-02,Budget,Opex,Technology,Corporate,All,-2691022
+2026-02,Actual,Opex,Technology,Corporate,All,-2328749
+2026-02,Budget,Opex,General & Administrative,Corporate,All,-4368557
+2026-02,Actual,Opex,General & Administrative,Corporate,All,-4386297
+2026-03,Budget,Opex,Store Operations,Corporate,All,-14874666
+2026-03,Actual,Opex,Store Operations,Corporate,All,-15339932
+2026-03,Budget,Opex,Marketing,Corporate,All,-4506085
+2026-03,Actual,Opex,Marketing,Corporate,All,-4542099
+2026-03,Budget,Opex,Supply Chain & Logistics,Corporate,All,-5083166
+2026-03,Actual,Opex,Supply Chain & Logistics,Corporate,All,-4972794
+2026-03,Budget,Opex,Technology,Corporate,All,-2751696
+2026-03,Actual,Opex,Technology,Corporate,All,-2426655
+2026-03,Budget,Opex,General & Administrative,Corporate,All,-4433276
+2026-03,Actual,Opex,General & Administrative,Corporate,All,-4360422
+2026-04,Budget,Opex,Store Operations,Corporate,All,-15327702
+2026-04,Actual,Opex,Store Operations,Corporate,All,-15372226
+2026-04,Budget,Opex,Marketing,Corporate,All,-4797323
+2026-04,Actual,Opex,Marketing,Corporate,All,-4886087
+2026-04,Budget,Opex,Supply Chain & Logistics,Corporate,All,-5366314
+2026-04,Actual,Opex,Supply Chain & Logistics,Corporate,All,-5274106
+2026-04,Budget,Opex,Technology,Corporate,All,-2782034
+2026-04,Actual,Opex,Technology,Corporate,All,-2377663
+2026-04,Budget,Opex,General & Administrative,Corporate,All,-4465636
+2026-04,Actual,Opex,General & Administrative,Corporate,All,-4519544
+2026-05,Budget,Opex,Store Operations,Corporate,All,-15856243
+2026-05,Actual,Opex,Store Operations,Corporate,All,-16004074
+2026-05,Budget,Opex,Marketing,Corporate,All,-5137099
+2026-05,Actual,Opex,Marketing,Corporate,All,-5066871
+2026-05,Budget,Opex,Supply Chain & Logistics,Corporate,All,-5696652
+2026-05,Actual,Opex,Supply Chain & Logistics,Corporate,All,-5987250
+2026-05,Budget,Opex,Technology,Corporate,All,-2817427
+2026-05,Actual,Opex,Technology,Corporate,All,-2511619
+2026-05,Budget,Opex,General & Administrative,Corporate,All,-4503389
+2026-05,Actual,Opex,General & Administrative,Corporate,All,-4461405
+2026-06,Budget,Opex,Store Operations,Corporate,All,-16233773
+2026-06,Actual,Opex,Store Operations,Corporate,All,-16061457
+2026-06,Budget,Opex,Marketing,Corporate,All,-5379797
+2026-06,Actual,Opex,Marketing,Corporate,All,-5641055
+2026-06,Budget,Opex,Supply Chain & Logistics,Corporate,All,-5932608
+2026-06,Actual,Opex,Supply Chain & Logistics,Corporate,All,-6139035
+2026-06,Budget,Opex,Technology,Corporate,All,-2842708
+2026-06,Actual,Opex,Technology,Corporate,All,-2636972
+2026-06,Budget,Opex,General & Administrative,Corporate,All,-4530355
+2026-06,Actual,Opex,General & Administrative,Corporate,All,-4587308
+2026-07,Budget,Opex,Store Operations,Corporate,All,-16082761
+2026-07,Actual,Opex,Store Operations,Corporate,All,-16470566
+2026-07,Budget,Opex,Marketing,Corporate,All,-5282718
+2026-07,Actual,Opex,Marketing,Corporate,All,-5432354
+2026-07,Budget,Opex,Supply Chain & Logistics,Corporate,All,-5838226
+2026-07,Actual,Opex,Supply Chain & Logistics,Corporate,All,-6099433
+2026-07,Budget,Opex,Technology,Corporate,All,-2832596
+2026-07,Actual,Opex,Technology,Corporate,All,-2539424
+2026-07,Budget,Opex,General & Administrative,Corporate,All,-4519569
+2026-07,Actual,Opex,General & Administrative,Corporate,All,-4651829
+2026-08,Budget,Opex,Store Operations,Corporate,All,-15629725
+2026-08,Actual,Opex,Store Operations,Corporate,All,-15614071
+2026-08,Budget,Opex,Marketing,Corporate,All,-4991481
+2026-08,Actual,Opex,Marketing,Corporate,All,-5042877
+2026-08,Budget,Opex,Supply Chain & Logistics,Corporate,All,-5555078
+2026-08,Actual,Opex,Supply Chain & Logistics,Corporate,All,-5593996
+2026-08,Budget,Opex,Technology,Corporate,All,-2802258
+2026-08,Actual,Opex,Technology,Corporate,All,-2513900
+2026-08,Budget,Opex,General & Administrative,Corporate,All,-4487209
+2026-08,Actual,Opex,General & Administrative,Corporate,All,-4632631
+2026-09,Budget,Opex,Store Operations,Corporate,All,-15101184
+2026-09,Actual,Opex,Store Operations,Corporate,All,-15337869
+2026-09,Budget,Opex,Marketing,Corporate,All,-4651704
+2026-09,Actual,Opex,Marketing,Corporate,All,-4853594
+2026-09,Budget,Opex,Supply Chain & Logistics,Corporate,All,-5224740
+2026-09,Actual,Opex,Supply Chain & Logistics,Corporate,All,-5495760
+2026-09,Budget,Opex,Technology,Corporate,All,-2766865
+2026-09,Actual,Opex,Technology,Corporate,All,-2445082
+2026-09,Budget,Opex,General & Administrative,Corporate,All,-4449456
+2026-09,Actual,Opex,General & Administrative,Corporate,All,-4561747
+2026-10,Budget,Opex,Store Operations,Corporate,All,-15478714
+2026-10,Budget,Opex,Marketing,Corporate,All,-4894402
+2026-10,Budget,Opex,Supply Chain & Logistics,Corporate,All,-5460696
+2026-10,Budget,Opex,Technology,Corporate,All,-2792146
+2026-10,Budget,Opex,General & Administrative,Corporate,All,-4476422
+2026-11,Budget,Opex,Store Operations,Corporate,All,-17366362
+2026-11,Budget,Opex,Marketing,Corporate,All,-6107890
+2026-11,Budget,Opex,Supply Chain & Logistics,Corporate,All,-6640476
+2026-11,Budget,Opex,Technology,Corporate,All,-2918551
+2026-11,Budget,Opex,General & Administrative,Corporate,All,-4611254
+2026-12,Budget,Opex,Store Operations,Corporate,All,-18498950
+2026-12,Budget,Opex,Marketing,Corporate,All,-6835982
+2026-12,Budget,Opex,Supply Chain & Logistics,Corporate,All,-7348344
+2026-12,Budget,Opex,Technology,Corporate,All,-2994394
+2026-12,Budget,Opex,General & Administrative,Corporate,All,-4692154

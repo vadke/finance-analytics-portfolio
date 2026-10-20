@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Big-Box Retail Benchmark</title>
+<meta name="description" content="Five-year financial benchmark of Walmart, Costco, Target, Home Depot and Lowe's from 10-K filings.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@500;700;800&family=Source+Sans+3:wght@400;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one reading column; summary findings, then a ranked table, then one trend chart driven by a metric picker. */
+:root{
+  --bg:#F3F5F7; --surface:#FFFFFF; --ink:#16202A; --muted:#566573; --line:#D9E0E6; --accent:#0B6B66;
+  --pos:#1E7A4B; --neg:#B0383A;
+  --s1:#2B5C8E; --s2:#C0552F; --s3:#3C8C57; --s4:#A9821A; --s5:#6B4E99;
+  --f-display:"Libre Franklin","Helvetica Neue",Arial,sans-serif;
+  --f-body:"Source Sans 3","Segoe UI",Arial,sans-serif;
+  --f-data:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0E1317; --surface:#151C22; --ink:#E3E9ED; --muted:#97A6B2; --line:#26323B; --accent:#43B3AA;
+  --pos:#56C690; --neg:#F07C7C; --s1:#6EA3D8; --s2:#EE8A62; --s3:#6FC48A; --s4:#E0BC55; --s5:#A88BD6; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0E1317; --surface:#151C22; --ink:#E3E9ED; --muted:#97A6B2; --line:#26323B; --accent:#43B3AA;
+  --pos:#56C690; --neg:#F07C7C; --s1:#6EA3D8; --s2:#EE8A62; --s3:#6FC48A; --s4:#E0BC55; --s5:#A88BD6; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font:16px/1.55 var(--f-body);margin:0}
+.wrap{max-width:1080px;margin:0 auto;padding-block:40px 56px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:36px}
+header{display:grid;gap:10px}
+.eyebrow{font:500 12px/1 var(--f-data);letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+h1{font:800 clamp(28px,4.4vw,42px)/1.1 var(--f-display);margin:0;text-wrap:balance;letter-spacing:-.01em}
+h2{font:700 20px/1.25 var(--f-display);margin:0;text-wrap:balance}
+.lede{color:var(--muted);max-width:68ch;margin:0}
+.meta{display:flex;flex-wrap:wrap;gap:8px 20px;font:13px/1.4 var(--f-data);color:var(--muted)}
+section{display:grid;gap:16px;min-width:0}
+.findings{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}
+.finding{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:16px;display:grid;gap:6px;align-content:start}
+.finding .co{font:500 12px/1 var(--f-data);letter-spacing:.06em;text-transform:uppercase;display:flex;align-items:center;gap:8px}
+.dot{width:10px;height:10px;border-radius:50%;display:inline-block;flex:none}
+.finding .big{font:700 26px/1.1 var(--f-display);font-variant-numeric:tabular-nums}
+.finding p{margin:0;color:var(--muted);font-size:15px}
+.tablebox{overflow-x:auto;background:var(--surface);border:1px solid var(--line);border-radius:6px}
+table{border-collapse:collapse;width:100%;min-width:720px;font-variant-numeric:tabular-nums}
+th,td{padding:10px 10px;text-align:right;border-bottom:1px solid var(--line);white-space:nowrap}
+thead th{white-space:normal;max-width:96px}
+th:first-child,td:first-child{text-align:left;position:sticky;left:0;background:var(--surface);z-index:1}
+thead th{font:600 12px/1.2 var(--f-body);color:var(--muted);text-transform:uppercase;letter-spacing:.04em;vertical-align:bottom}
+thead button{all:unset;cursor:pointer;display:inline-flex;gap:4px;align-items:center}
+thead button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+thead button[aria-sort]::after{content:"";border:4px solid transparent}
+thead button[aria-sort="descending"]::after{border-top-color:currentColor;margin-top:4px}
+thead button[aria-sort="ascending"]::after{border-bottom-color:currentColor;margin-bottom:4px}
+td{font:14px/1.3 var(--f-data)}
+td.name{font:600 15px/1.3 var(--f-body)}
+tbody tr:last-child td{border-bottom:0}
+.best{color:var(--pos);font-weight:500}
+.worst{color:var(--neg)}
+.note{font-size:13px;color:var(--muted);margin:0}
+.controls{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between}
+label{font-size:14px;color:var(--muted);display:flex;gap:8px;align-items:center}
+select{font:15px var(--f-body);padding:6px 10px;border:1px solid var(--line);border-radius:4px;background:var(--surface);color:var(--ink)}
+select:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+.chartbox{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:16px;min-width:0}
+.chartbox .cv{position:relative;height:340px}
+.legend{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:14px;margin-top:10px}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.method{display:grid;gap:8px;max-width:75ch}
+.method p{margin:0;color:var(--muted);font-size:15px}
+footer{border-top:1px solid var(--line);padding-top:16px;font-size:13px;color:var(--muted);display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-between}
+@media (max-width:520px){.chartbox .cv{height:280px}.wrap{padding-block:28px 40px}}
+</style>
+
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="eyebrow">Peer benchmark · 10-K filings · fiscal 2021–2025</div>
+    <h1>Big-Box Retail Benchmark</h1>
+    <p class="lede">Five years of filed financials for Walmart, Costco, Target, Home Depot and Lowe's, loaded into SQLite and compared on growth, margins, inventory efficiency, cash generation and leverage.</p>
+    <div class="meta"><span>5 companies · 25 company-years</span><span>$ in millions</span><span>5 data checks passed</span></div>
+  </header>
+
+  <section aria-labelledby="f-h">
+    <h2 id="f-h">What the numbers show</h2>
+    <div class="findings" id="findings"></div>
+  </section>
+
+  <section aria-labelledby="t-h">
+    <div class="controls">
+      <h2 id="t-h">Latest fiscal year, ranked</h2>
+      <span class="note">Click a column to sort. Green is best in group, red is weakest.</span>
+    </div>
+    <div class="tablebox"><table id="tbl"><thead></thead><tbody></tbody></table></div>
+    <p class="note">Debt-to-equity shows "n/m" where shareholders' equity is negative (Lowe's, after years of buybacks). Costco's fiscal year ends in late August, about seven months after the others.</p>
+  </section>
+
+  <section aria-labelledby="c-h">
+    <div class="controls">
+      <h2 id="c-h">Five-year trend</h2>
+      <label for="metric">Metric
+        <select id="metric"></select>
+      </label>
+    </div>
+    <div class="chartbox">
+      <div class="cv"><canvas id="chart" role="img" aria-label="Line chart of the selected metric by company and fiscal year"></canvas></div>
+      <div class="legend" id="legend"></div>
+    </div>
+  </section>
+
+  <section class="method" aria-labelledby="m-h">
+    <h2 id="m-h">Method</h2>
+    <p>Income statement, balance sheet and cash flow figures for each company's last five fiscal years were taken from 10-K filings (as compiled by StockAnalysis.com) and loaded into SQLite. SQL checks confirm free cash flow ties to operating cash flow less capex, gross profit sits below revenue, operating income sits below gross profit, and all three statements join one-to-one.</p>
+    <p>Ratios are computed in one SQL view using window functions: year-over-year growth and inventory turnover use LAG over the prior year, and CAGR runs from each company's first year in the set. Fiscal years are labeled by the calendar year in which most of the period falls. Inventory turnover is cost of goods sold over average inventory; ROA is net income over average total assets.</p>
+  </section>
+
+  <footer><span>Analysis and dashboard by Vinit Adke</span><span>Source: company 10-K filings via StockAnalysis.com</span></footer>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.js"></script>
+<script>
+const DATA = [{"ticker":"COST","company":"Costco","fiscal_year":2022,"fiscal_year_end":"2022-08-28","revenue":226954.0,"gross_profit":27572.0,"operating_income":7911.0,"net_income":5844.0,"eps":13.14,"operating_cash_flow":7392.0,"capex":3891.0,"free_cash_flow":3501.0,"gross_margin_pct":12.15,"operating_margin_pct":3.49,"net_margin_pct":2.57,"revenue_growth_pct":null,"revenue_cagr_pct":null,"current_ratio":1.02,"inventory_turnover":null,"days_inventory":null,"debt_to_equity":0.53,"roa_pct":null,"fcf_margin_pct":1.54,"capex_pct_revenue":1.71,"cash_conversion":1.26},{"ticker":"COST","company":"Costco","fiscal_year":2023,"fiscal_year_end":"2023-09-03","revenue":242290.0,"gross_profit":30095.0,"operating_income":8505.0,"net_income":6292.0,"eps":14.16,"operating_cash_flow":11068.0,"capex":4323.0,"free_cash_flow":6745.0,"gross_margin_pct":12.42,"operating_margin_pct":3.51,"net_margin_pct":2.6,"revenue_growth_pct":6.76,"revenue_cagr_pct":6.76,"current_ratio":1.07,"inventory_turnover":12.28,"days_inventory":29.7,"debt_to_equity":0.42,"roa_pct":9.45,"fcf_margin_pct":2.78,"capex_pct_revenue":1.78,"cash_conversion":1.76},{"ticker":"COST","company":"Costco","fiscal_year":2024,"fiscal_year_end":"2024-09-01","revenue":254453.0,"gross_profit":32095.0,"operating_income":9285.0,"net_income":7367.0,"eps":16.56,"operating_cash_flow":11339.0,"capex":4710.0,"free_cash_flow":6629.0,"gross_margin_pct":12.61,"operating_margin_pct":3.65,"net_margin_pct":2.9,"revenue_growth_pct":5.02,"revenue_cagr_pct":5.89,"current_ratio":0.97,"inventory_turnover":12.6,"days_inventory":29.0,"debt_to_equity":0.42,"roa_pct":10.61,"fcf_margin_pct":2.61,"capex_pct_revenue":1.85,"cash_conversion":1.54},{"ticker":"COST","company":"Costco","fiscal_year":2025,"fiscal_year_end":"2025-08-31","revenue":275235.0,"gross_profit":35349.0,"operating_income":10383.0,"net_income":8099.0,"eps":18.21,"operating_cash_flow":13335.0,"capex":5498.0,"free_cash_flow":7837.0,"gross_margin_pct":12.84,"operating_margin_pct":3.77,"net_margin_pct":2.94,"revenue_growth_pct":8.17,"revenue_cagr_pct":6.64,"current_ratio":1.03,"inventory_turnover":13.05,"days_inventory":28.0,"debt_to_equity":0.34,"roa_pct":11.02,"fcf_margin_pct":2.85,"capex_pct_revenue":2.0,"cash_conversion":1.65},{"ticker":"COST","company":"Costco","fiscal_year":2026,"fiscal_year_end":"2026-08-30","revenue":303154.0,"gross_profit":38701.0,"operating_income":11511.0,"net_income":9226.0,"eps":20.76,"operating_cash_flow":15817.0,"capex":6435.0,"free_cash_flow":9382.0,"gross_margin_pct":12.77,"operating_margin_pct":3.8,"net_margin_pct":3.04,"revenue_growth_pct":10.14,"revenue_cagr_pct":7.51,"current_ratio":1.06,"inventory_turnover":14.13,"days_inventory":25.8,"debt_to_equity":0.28,"roa_pct":11.11,"fcf_margin_pct":3.09,"capex_pct_revenue":2.12,"cash_conversion":1.71},{"ticker":"HD","company":"Home Depot","fiscal_year":2021,"fiscal_year_end":"2022-01-30","revenue":151157.0,"gross_profit":50832.0,"operating_income":23040.0,"net_income":16433.0,"eps":15.53,"operating_cash_flow":16571.0,"capex":2566.0,"free_cash_flow":14005.0,"gross_margin_pct":33.63,"operating_margin_pct":15.24,"net_margin_pct":10.87,"revenue_growth_pct":null,"revenue_cagr_pct":null,"current_ratio":1.01,"inventory_turnover":null,"days_inventory":null,"debt_to_equity":null,"roa_pct":null,"fcf_margin_pct":9.27,"capex_pct_revenue":1.7,"cash_conversion":1.01},{"ticker":"HD","company":"Home Depot","fiscal_year":2022,"fiscal_year_end":"2023-01-29","revenue":157403.0,"gross_profit":52778.0,"operating_income":24039.0,"net_income":17105.0,"eps":16.69,"operating_cash_flow":14615.0,"capex":3119.0,"free_cash_flow":11496.0,"gross_margin_pct":33.53,"operating_margin_pct":15.27,"net_margin_pct":10.87,"revenue_growth_pct":4.13,"revenue_cagr_pct":4.13,"current_ratio":1.41,"inventory_turnover":4.46,"days_inventory":81.9,"debt_to_equity":32.74,"roa_pct":23.06,"fcf_margin_pct":7.3,"capex_pct_revenue":1.98,"cash_conversion":0.85},{"ticker":"HD","company":"Home Depot","fiscal_year":2023,"fiscal_year_end":"2024-01-28","revenue":152669.0,"gross_profit":50960.0,"operating_income":21689.0,"net_income":15143.0,"eps":15.11,"operating_cash_flow":21172.0,"capex":3226.0,"free_cash_flow":17946.0,"gross_margin_pct":33.38,"operating_margin_pct":14.21,"net_margin_pct":9.92,"revenue_growth_pct":-3.01,"revenue_cagr_pct":0.5,"current_ratio":1.35,"inventory_turnover":4.44,"days_inventory":82.3,"debt_to_equity":50.86,"roa_pct":19.8,"fcf_margin_pct":11.75,"capex_pct_revenue":2.11,"cash_conversion":1.4},{"ticker":"HD","company":"Home Depot","fiscal_year":2024,"fiscal_year_end":"2025-02-02","revenue":159514.0,"gross_profit":53308.0,"operating_income":21526.0,"net_income":14806.0,"eps":14.91,"operating_cash_flow":19810.0,"capex":3485.0,"free_cash_flow":16325.0,"gross_margin_pct":33.42,"operating_margin_pct":13.49,"net_margin_pct":9.28,"revenue_growth_pct":4.48,"revenue_cagr_pct":1.81,"current_ratio":1.11,"inventory_turnover":4.78,"days_inventory":76.3,"debt_to_equity":9.5,"roa_pct":17.15,"fcf_margin_pct":10.23,"capex_pct_revenue":2.18,"cash_conversion":1.34},{"ticker":"HD","company":"Home Depot","fiscal_year":2025,"fiscal_year_end":"2026-02-01","revenue":164683.0,"gross_profit":54865.0,"operating_income":20890.0,"net_income":14156.0,"eps":14.23,"operating_cash_flow":16325.0,"capex":3679.0,"free_cash_flow":12646.0,"gross_margin_pct":33.32,"operating_margin_pct":12.68,"net_margin_pct":8.6,"revenue_growth_pct":3.24,"revenue_cagr_pct":2.17,"current_ratio":1.06,"inventory_turnover":4.46,"days_inventory":81.9,"debt_to_equity":5.14,"roa_pct":14.07,"fcf_margin_pct":7.68,"capex_pct_revenue":2.23,"cash_conversion":1.15},{"ticker":"LOW","company":"Lowe's","fiscal_year":2021,"fiscal_year_end":"2022-01-28","revenue":96250.0,"gross_profit":32056.0,"operating_income":12127.0,"net_income":8409.0,"eps":12.04,"operating_cash_flow":10113.0,"capex":1853.0,"free_cash_flow":8260.0,"gross_margin_pct":33.3,"operating_margin_pct":12.6,"net_margin_pct":8.74,"revenue_growth_pct":null,"revenue_cagr_pct":null,"current_ratio":1.02,"inventory_turnover":null,"days_inventory":null,"debt_to_equity":null,"roa_pct":null,"fcf_margin_pct":8.58,"capex_pct_revenue":1.93,"cash_conversion":1.2},{"ticker":"LOW","company":"Lowe's","fiscal_year":2022,"fiscal_year_end":"2023-02-03","revenue":97059.0,"gross_profit":32257.0,"operating_income":10216.0,"net_income":6416.0,"eps":10.17,"operating_cash_flow":8589.0,"capex":1829.0,"free_cash_flow":6760.0,"gross_margin_pct":33.23,"operating_margin_pct":10.53,"net_margin_pct":6.61,"revenue_growth_pct":0.84,"revenue_cagr_pct":0.84,"current_ratio":1.1,"inventory_turnover":3.59,"days_inventory":101.8,"debt_to_equity":null,"roa_pct":14.52,"fcf_margin_pct":6.96,"capex_pct_revenue":1.88,"cash_conversion":1.34},{"ticker":"LOW","company":"Lowe's","fiscal_year":2023,"fiscal_year_end":"2024-02-02","revenue":86377.0,"gross_profit":28844.0,"operating_income":11640.0,"net_income":7706.0,"eps":13.2,"operating_cash_flow":8140.0,"capex":1964.0,"free_cash_flow":6176.0,"gross_margin_pct":33.39,"operating_margin_pct":13.48,"net_margin_pct":8.92,"revenue_growth_pct":-11.01,"revenue_cagr_pct":-5.27,"current_ratio":1.23,"inventory_turnover":3.25,"days_inventory":112.4,"debt_to_equity":null,"roa_pct":18.03,"fcf_margin_pct":7.15,"capex_pct_revenue":2.27,"cash_conversion":1.06},{"ticker":"LOW","company":"Lowe's","fiscal_year":2024,"fiscal_year_end":"2025-01-31","revenue":83674.0,"gross_profit":27877.0,"operating_income":10471.0,"net_income":6940.0,"eps":12.23,"operating_cash_flow":9625.0,"capex":1927.0,"free_cash_flow":7698.0,"gross_margin_pct":33.32,"operating_margin_pct":12.51,"net_margin_pct":8.29,"revenue_growth_pct":-3.13,"revenue_cagr_pct":-4.56,"current_ratio":1.09,"inventory_turnover":3.25,"days_inventory":112.2,"debt_to_equity":null,"roa_pct":16.35,"fcf_margin_pct":9.2,"capex_pct_revenue":2.3,"cash_conversion":1.39},{"ticker":"LOW","company":"Lowe's","fiscal_year":2025,"fiscal_year_end":"2026-01-30","revenue":86286.0,"gross_profit":28885.0,"operating_income":10206.0,"net_income":6636.0,"eps":11.85,"operating_cash_flow":9864.0,"capex":2213.0,"free_cash_flow":7651.0,"gross_margin_pct":33.48,"operating_margin_pct":11.83,"net_margin_pct":7.69,"revenue_growth_pct":3.12,"revenue_cagr_pct":-2.7,"current_ratio":1.08,"inventory_turnover":3.31,"days_inventory":110.4,"debt_to_equity":null,"roa_pct":13.65,"fcf_margin_pct":8.87,"capex_pct_revenue":2.56,"cash_conversion":1.49},{"ticker":"TGT","company":"Target","fiscal_year":2021,"fiscal_year_end":"2022-01-29","revenue":106005.0,"gross_profit":31042.0,"operating_income":9062.0,"net_income":6946.0,"eps":14.1,"operating_cash_flow":8625.0,"capex":3544.0,"free_cash_flow":5081.0,"gross_margin_pct":29.28,"operating_margin_pct":8.55,"net_margin_pct":6.55,"revenue_growth_pct":null,"revenue_cagr_pct":null,"current_ratio":0.99,"inventory_turnover":null,"days_inventory":null,"debt_to_equity":1.28,"roa_pct":null,"fcf_margin_pct":4.79,"capex_pct_revenue":3.34,"cash_conversion":1.24},{"ticker":"TGT","company":"Target","fiscal_year":2022,"fiscal_year_end":"2023-01-28","revenue":109120.0,"gross_profit":26814.0,"operating_income":3960.0,"net_income":2780.0,"eps":5.98,"operating_cash_flow":4018.0,"capex":5528.0,"free_cash_flow":-1510.0,"gross_margin_pct":24.57,"operating_margin_pct":3.63,"net_margin_pct":2.55,"revenue_growth_pct":2.94,"revenue_cagr_pct":2.94,"current_ratio":0.92,"inventory_turnover":6.01,"days_inventory":60.8,"debt_to_equity":1.71,"roa_pct":5.19,"fcf_margin_pct":-1.38,"capex_pct_revenue":5.07,"cash_conversion":1.45},{"ticker":"TGT","company":"Target","fiscal_year":2023,"fiscal_year_end":"2024-02-03","revenue":107412.0,"gross_profit":29584.0,"operating_income":5900.0,"net_income":4138.0,"eps":8.94,"operating_cash_flow":8621.0,"capex":4806.0,"free_cash_flow":3815.0,"gross_margin_pct":27.54,"operating_margin_pct":5.49,"net_margin_pct":3.85,"revenue_growth_pct":-1.57,"revenue_cagr_pct":0.66,"current_ratio":0.91,"inventory_turnover":6.13,"days_inventory":59.5,"debt_to_equity":1.46,"roa_pct":7.61,"fcf_margin_pct":3.55,"capex_pct_revenue":4.47,"cash_conversion":2.08},{"ticker":"TGT","company":"Target","fiscal_year":2024,"fiscal_year_end":"2025-02-01","revenue":106566.0,"gross_profit":30064.0,"operating_income":5739.0,"net_income":4091.0,"eps":8.86,"operating_cash_flow":7367.0,"capex":2891.0,"free_cash_flow":4476.0,"gross_margin_pct":28.21,"operating_margin_pct":5.39,"net_margin_pct":3.84,"revenue_growth_pct":-0.79,"revenue_cagr_pct":0.18,"current_ratio":0.94,"inventory_turnover":6.21,"days_inventory":58.7,"debt_to_equity":1.36,"roa_pct":7.23,"fcf_margin_pct":4.2,"capex_pct_revenue":2.71,"cash_conversion":1.8},{"ticker":"TGT","company":"Target","fiscal_year":2025,"fiscal_year_end":"2026-01-31","revenue":104780.0,"gross_profit":29269.0,"operating_income":4938.0,"net_income":3705.0,"eps":8.13,"operating_cash_flow":6562.0,"capex":3727.0,"free_cash_flow":2835.0,"gross_margin_pct":27.93,"operating_margin_pct":4.71,"net_margin_pct":3.54,"revenue_growth_pct":-1.68,"revenue_cagr_pct":-0.29,"current_ratio":0.94,"inventory_turnover":6.03,"days_inventory":60.5,"debt_to_equity":1.26,"roa_pct":6.32,"fcf_margin_pct":2.71,"capex_pct_revenue":3.56,"cash_conversion":1.77},{"ticker":"WMT","company":"Walmart","fiscal_year":2021,"fiscal_year_end":"2022-01-31","revenue":572754.0,"gross_profit":143754.0,"operating_income":25942.0,"net_income":13673.0,"eps":1.62,"operating_cash_flow":24181.0,"capex":13106.0,"free_cash_flow":11075.0,"gross_margin_pct":25.1,"operating_margin_pct":4.53,"net_margin_pct":2.39,"revenue_growth_pct":null,"revenue_cagr_pct":null,"current_ratio":0.93,"inventory_turnover":null,"days_inventory":null,"debt_to_equity":0.64,"roa_pct":null,"fcf_margin_pct":1.93,"capex_pct_revenue":2.29,"cash_conversion":1.77},{"ticker":"WMT","company":"Walmart","fiscal_year":2022,"fiscal_year_end":"2023-01-31","revenue":611289.0,"gross_profit":147568.0,"operating_income":24528.0,"net_income":11680.0,"eps":1.42,"operating_cash_flow":28841.0,"capex":16857.0,"free_cash_flow":11984.0,"gross_margin_pct":24.14,"operating_margin_pct":4.01,"net_margin_pct":1.91,"revenue_growth_pct":6.73,"revenue_cagr_pct":6.73,"current_ratio":0.82,"inventory_turnover":8.2,"days_inventory":44.5,"debt_to_equity":0.73,"roa_pct":4.79,"fcf_margin_pct":1.96,"capex_pct_revenue":2.76,"cash_conversion":2.47},{"ticker":"WMT","company":"Walmart","fiscal_year":2023,"fiscal_year_end":"2024-01-31","revenue":648125.0,"gross_profit":157983.0,"operating_income":27012.0,"net_income":15511.0,"eps":1.91,"operating_cash_flow":35726.0,"capex":20606.0,"free_cash_flow":15120.0,"gross_margin_pct":24.38,"operating_margin_pct":4.17,"net_margin_pct":2.39,"revenue_growth_pct":6.03,"revenue_cagr_pct":6.38,"current_ratio":0.83,"inventory_turnover":8.79,"days_inventory":41.5,"debt_to_equity":0.7,"roa_pct":6.26,"fcf_margin_pct":2.33,"capex_pct_revenue":3.18,"cash_conversion":2.3},{"ticker":"WMT","company":"Walmart","fiscal_year":2024,"fiscal_year_end":"2025-01-31","revenue":680985.0,"gross_profit":169232.0,"operating_income":29348.0,"net_income":19436.0,"eps":2.41,"operating_cash_flow":36443.0,"capex":23783.0,"free_cash_flow":12660.0,"gross_margin_pct":24.85,"operating_margin_pct":4.31,"net_margin_pct":2.85,"revenue_growth_pct":5.07,"revenue_cagr_pct":5.94,"current_ratio":0.82,"inventory_turnover":9.19,"days_inventory":39.7,"debt_to_equity":0.64,"roa_pct":7.57,"fcf_margin_pct":1.86,"capex_pct_revenue":3.49,"cash_conversion":1.88},{"ticker":"WMT","company":"Walmart","fiscal_year":2025,"fiscal_year_end":"2026-01-31","revenue":713163.0,"gross_profit":177768.0,"operating_income":29825.0,"net_income":21893.0,"eps":2.73,"operating_cash_flow":41565.0,"capex":26642.0,"free_cash_flow":14923.0,"gross_margin_pct":24.93,"operating_margin_pct":4.18,"net_margin_pct":3.07,"revenue_growth_pct":4.73,"revenue_cagr_pct":5.63,"current_ratio":0.79,"inventory_turnover":9.29,"days_inventory":39.3,"debt_to_equity":0.64,"roa_pct":8.03,"fcf_margin_pct":2.09,"capex_pct_revenue":3.74,"cash_conversion":1.9}];
+const CO = ["WMT","COST","TGT","HD","LOW"];
+const NAME = {WMT:"Walmart",COST:"Costco",TGT:"Target",HD:"Home Depot",LOW:"Lowe's"};
+const SER = {WMT:"--s1",COST:"--s3",TGT:"--s2",HD:"--s4",LOW:"--s5"};
+const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+const fmt = {
+  usd: v => v==null?"–":"$"+Math.round(v).toLocaleString("en-US"),
+  pct: v => v==null?"–":v.toFixed(1)+"%",
+  x:   v => v==null?"n/m":v.toFixed(1)+"x",
+  r2:  v => v==null?"n/m":v.toFixed(2),
+  d:   v => v==null?"–":Math.round(v)+" days"
+};
+const COLS = [
+  {k:"revenue",l:"Revenue ($M)",f:"usd",hi:true},
+  {k:"revenue_cagr_pct",l:"4-yr revenue CAGR",f:"pct",hi:true},
+  {k:"gross_margin_pct",l:"Gross margin",f:"pct",hi:true},
+  {k:"operating_margin_pct",l:"Operating margin",f:"pct",hi:true},
+  {k:"fcf_margin_pct",l:"FCF margin",f:"pct",hi:true},
+  {k:"inventory_turnover",l:"Inventory turns",f:"x",hi:true},
+  {k:"roa_pct",l:"ROA",f:"pct",hi:true},
+  {k:"debt_to_equity",l:"Debt / equity",f:"r2",hi:false},
+];
+const METRICS = [
+  ["operating_margin_pct","Operating margin (%)","pct"],["gross_margin_pct","Gross margin (%)","pct"],
+  ["revenue","Revenue ($M)","usd"],["revenue_growth_pct","Revenue growth YoY (%)","pct"],
+  ["fcf_margin_pct","Free cash flow margin (%)","pct"],["capex_pct_revenue","Capex as % of revenue","pct"],
+  ["inventory_turnover","Inventory turnover (x)","x"],["days_inventory","Days inventory on hand","d"],
+  ["roa_pct","Return on assets (%)","pct"],["cash_conversion","Operating cash flow / net income","r2"]
+];
+const by = {}; DATA.forEach(r => (by[r.ticker] ||= []).push(r));
+CO.forEach(t => by[t].sort((a,b)=>a.fiscal_year-b.fiscal_year));
+const latest = CO.map(t => by[t][by[t].length-1]);
+const first = t => by[t][0], last = t => by[t][by[t].length-1];
+
+// Findings, computed from the data rather than typed in
+const F = [];
+{ const t="COST"; F.push({t, big:fmt.pct(last(t).revenue_cagr_pct)+" a year",
+  p:`Fastest grower: revenue rose from $${(first(t).revenue/1000).toFixed(0)}B to $${(last(t).revenue/1000).toFixed(0)}B, with the group's highest inventory turnover (${fmt.x(last(t).inventory_turnover)}).`}); }
+{ const t="TGT"; F.push({t, big:`${fmt.pct(first(t).operating_margin_pct)} → ${fmt.pct(last(t).operating_margin_pct)}`,
+  p:`Operating margin nearly halved while revenue went flat (${fmt.pct(last(t).revenue_cagr_pct)} a year).`}); }
+{ const t="LOW"; F.push({t, big:fmt.pct(last(t).fcf_margin_pct)+" FCF margin",
+  p:`Best cash generation in the group even as revenue fell ${fmt.pct(Math.abs(last(t).revenue_cagr_pct))} a year, from $${(first(t).revenue/1000).toFixed(1)}B to $${(last(t).revenue/1000).toFixed(1)}B.`}); }
+{ const t="WMT"; F.push({t, big:`${fmt.pct(first(t).capex_pct_revenue)} → ${fmt.pct(last(t).capex_pct_revenue)}`,
+  p:`Capex as a share of revenue rose sharply, leaving the lowest FCF margin (${fmt.pct(last(t).fcf_margin_pct)}) on $${(last(t).revenue/1000).toFixed(0)}B of revenue.`}); }
+document.getElementById("findings").innerHTML = F.map(f => `<article class="finding">
+  <div class="co"><span class="dot" style="background:var(${SER[f.t]})"></span>${NAME[f.t]}</div>
+  <div class="big">${f.big}</div><p>${f.p}</p></article>`).join("");
+
+// Ranked table
+let sortKey = "revenue", sortDir = -1;
+function renderTable(){
+  const thead = document.querySelector("#tbl thead"), tbody = document.querySelector("#tbl tbody");
+  thead.innerHTML = "<tr><th scope='col'>Company</th>" + COLS.map(c => `<th scope="col"><button type="button" data-k="${c.k}" ${c.k===sortKey?`aria-sort="${sortDir<0?"descending":"ascending"}"`:""}>${c.l}</button></th>`).join("") + "<th scope='col'>Fiscal year end</th></tr>";
+  const rows = [...latest].sort((a,b) => ((a[sortKey]??-1e9) - (b[sortKey]??-1e9)) * sortDir);
+  const ext = {}; COLS.forEach(c => { const v = latest.map(r=>r[c.k]).filter(v=>v!=null); ext[c.k] = {best: c.hi?Math.max(...v):Math.min(...v), worst: c.hi?Math.min(...v):Math.max(...v)}; });
+  tbody.innerHTML = rows.map(r => "<tr><td class='name'><span class='dot' style='background:var("+SER[r.ticker]+");margin-right:8px'></span>"+NAME[r.ticker]+"</td>" +
+    COLS.map(c => { const v=r[c.k]; const cls = v==null?"":v===ext[c.k].best?"best":v===ext[c.k].worst?"worst":""; return `<td class="${cls}">${fmt[c.f](v)}</td>`; }).join("") +
+    `<td>${new Date(r.fiscal_year_end+"T00:00:00").toLocaleDateString("en-US",{month:"short",day:"numeric",year:"numeric"})}</td></tr>`).join("");
+  thead.querySelectorAll("button").forEach(b => b.onclick = () => { const k=b.dataset.k; sortDir = k===sortKey ? -sortDir : -1; sortKey = k; renderTable(); });
+}
+renderTable();
+
+// Trend chart
+const sel = document.getElementById("metric");
+sel.innerHTML = METRICS.map(m => `<option value="${m[0]}">${m[1]}</option>`).join("");
+try { const s = localStorage.getItem("peer-metric"); if (s && METRICS.some(m=>m[0]===s)) sel.value = s; } catch(e) {}
+let chart;
+function renderChart(){
+  const m = METRICS.find(x => x[0]===sel.value), f = fmt[m[2]];
+  const years = [...new Set(DATA.map(r=>r.fiscal_year))].sort();
+  const ink = css("--ink"), muted = css("--muted"), line = css("--line");
+  const ds = CO.map(t => ({label:NAME[t], data: years.map(y => (by[t].find(r=>r.fiscal_year===y)||{})[m[0]] ?? null),
+    borderColor:css(SER[t]), backgroundColor:css(SER[t]), borderWidth:2.25, pointRadius:3.5, pointHoverRadius:5, spanGaps:false, tension:0}));
+  if (chart) chart.destroy();
+  chart = new Chart(document.getElementById("chart"), {type:"line", data:{labels:years.map(String), datasets:ds},
+    options:{responsive:true, maintainAspectRatio:false, animation:matchMedia("(prefers-reduced-motion: reduce)").matches?false:{duration:300},
+      interaction:{mode:"index", intersect:false},
+      plugins:{legend:{display:false}, tooltip:{callbacks:{label:c => ` ${c.dataset.label}: ${f(c.raw)}`}}},
+      scales:{x:{grid:{display:false}, ticks:{color:muted, font:{family:"IBM Plex Mono"}}, border:{color:line}},
+        y:{grid:{color:line}, border:{display:false}, ticks:{color:muted, font:{family:"IBM Plex Mono"}, callback:v => m[2]==="usd" ? "$"+(v/1000)+"B" : m[2]==="pct" ? v+"%" : v}}}}});
+  document.getElementById("legend").innerHTML = CO.map(t => `<span><span class="dot" style="background:var(${SER[t]})"></span>${NAME[t]}</span>`).join("");
+  Chart.defaults.color = ink;
+}
+sel.addEventListener("change", () => { try { localStorage.setItem("peer-metric", sel.value); } catch(e) {} renderChart(); });
+renderChart();
+matchMedia("(prefers-color-scheme: dark)").addEventListener("change", renderChart);
+new MutationObserver(renderChart).observe(document.documentElement, {attributes:true, attributeFilter:["data-theme"]});
+</script>
+
+</body>
+</html>
